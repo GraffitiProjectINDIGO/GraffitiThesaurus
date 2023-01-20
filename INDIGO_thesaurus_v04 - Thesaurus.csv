@@ -1,0 +1,431 @@
+Unique identifier,Getty AAT type,skos:prefLabel @en,skos:broader,rdf:type (skos:),skos:member,skos:altLabel @en,skos:editorialNote @en ,skos:note @en (getty),skos:note @en,external concept (getty),"type of match (getty) (skos:exactMatch, skos:closeMatch, skos:broadMatch, skos:narrowMatch, skos:relatedMatch)",external concept (wikidata),"type of match (wikidata) (skos:exactMatch, skos:closeMatch, skos:broadMatch, skos:narrowMatch, skos:relatedMatch)",dct:source,skos:example @en,skos:related
+atSignsMotif,concept,@ signs (motif),motifs,Concept,signAndElement,at-sign $$ at $$ @ $$ at-signs $$ @ sign $$ @-signs $$ @-sign,"Only if the @sign shows up as an individual symbol, this also could be put here",,"The at-sign (@) is a symbol that is often used as a motif in graffiti. It can be used in a variety of ways by graffitists, depending on their intention. For example, the at-sign could be used to create a tag, such as ""@K-Rimes"" or ""@Jaz,"" which is a signature or identity used by the graffitist. The at-sign could also be used to create a message or slogan, such as ""@Peace"" or ""@Love.""
+
+In terms of its visual appearance, the at-sign could be used in a graffiti piece in many different ways by graffitists. It could be rendered in a simple, straightforward manner, using clean lines and basic colors. Alternatively, it could be incorporated into a more complex design, using different colors, shapes, and styles to create visual interest.",,,https://www.wikidata.org/wiki/Q10714,skos:exactMatch,,"One example of how the at-sign could be used as a motif in graffiti by a graffitist is to create a portrait or figure using the symbol. For example, a graffitist could use the at-sign to create the outline of a face, with the symbol repeated over and over to fill in the features and create the desired effect. The at-sign could also be used to create other elements of the portrait, such as the hair, clothing, or background.",
+3dGraffiti,concept,3D (graffiti),letterformComponents,Concept,style,3D $$ three-dimensional (graffiti) $$ three dimensional (graffiti) $$ 3d,"- can be a shading of the letters, but can be a block to the letters
+- allows the writing to be seen in a three-dimensional
+- I guess it could be also related to street art
+- it a component that makes the writing appear 3D",,"In the graffiti community, the term ""3D"" typically refers to the use of three-dimensional effects or techniques in a graffiti piece. This could include the use of shading, highlighting, or other techniques to create the illusion of depth or volume within the piece. Graffitist often use 3D techniques to add realism, dynamism, and visual interest to their works.",,,https://www.wikidata.org/wiki/Q34929,skos:broadMatch,,"For example, a graffitists might use 3D techniques to create the illusion of a three-dimensional object within their piece, such as a ball, a box, or a car. The artist could use shading and highlighting to give the object a sense of depth and volume, making it appear more realistic and lifelike.
+
+",blocksGraffiti
+abstractStyleGraffiti,concept,abstract style (graffiti),stylesStreetArt,Concept,style,abstract $$ Abstract style $$ Abstract Style $$ abstract (style) $$ abstract (graffiti),"[Street Art styles]
+- is not the same as the abstract art form
+- also as the problem is, that the abstract art  in the Getty AAT is located in the branch of art forms. Would be good to have a discussion here
+
+Question here: is it a Capital Letter at the styles always?
+
+STYLES in general, where would we put them, as some could be both writing and street art
+And it might be difficult to put the styles in the geographical locations",,"The term ""abstract"" in the context of graffiti refers to a style of art that is characterized by the use of geometric shapes, patterns, and colors to create compositions that do not represent recognizable objects or figures. Graffitists who use an abstract style often aim to create works that are visually striking, dynamic, and open to interpretation.
+
+To create an abstract graffiti piece, a graffitist might use a variety of techniques, such as overlapping shapes, color blending, and repetition of patterns. The graffitist might also incorporate elements of surrealism, cubism, or other artistic styles to add complexity and interest to the work.","http://vocab.getty.edu/page/aat/300108127
+",broadMatch,https://www.wikidata.org/wiki/Q333357,skos:broadMatch,,"An example of an abstract graffiti piece is a composition that uses geometric shapes, such as circles, triangles, and squares, in a variety of colors and patterns. The graffitist might use overlapping and interlocking shapes to create a sense of movement and dynamism within the piece. The composition could also incorporate elements of symmetry, repetition, and variation to add visual interest and complexity.",
+accidentalSurfaceCoveringProcessesGT,guide term,accidential surface covering processes <guide term>,additiveAndJoiningProcessesAndTechniquesGT,Concept,,,,,,,,,,,,
+ActivitiesF,facet,Activities <facet>,,Concept,,,taken from the Getty AAT,,,,,,,,,
+activity,collection,activity,,Collection,,,,,,,,,,,,
+additiveAndJoiningProcessesAndTechniquesGT,guide term,additive and joining processes and techniques <guide term>,processesAndTechniquesBySpecificTypeGT,Concept,,,,,,,,,,,,
+AgentsF,facet,Agents <facet>,,Concept,,,taken from the Getty AAT,,,,,,,,,
+anarchySymbols,concept,anarchy symbols,motifs,Concept,signAndElement,Anarchy sign $$ anarchy symbol,"- a motif
+- can be independent, but also connected to other messagaes",,"The term ""anarchy symbol"" in the context of graffiti refers to a visual symbol that is often used by graffitists to express anarchist or anti-establishment ideas. The most common form of the anarchy symbol is a circle with a ""A"" inside, but other variations also exist.
+
+To create an anarchy symbol graffiti piece, a graffitist might use a variety of techniques, such as stenciling, spray paint, or markers. The graffitist might also incorporate elements of other symbols or imagery, such as the peace sign or the skull and crossbones, to add complexity and meaning to the work.",,,https://www.wikidata.org/wiki/Q31895,skos:relatedMatch,,"An example of an anarchy symbol graffiti piece is a composition that uses the circle with the ""A"" inside to create a bold, eye-catching design. The graffitist might use a variety of colors and styles, such as gradient effects or 3D shading, to add visual interest to the piece. The composition could also incorporate other symbols or imagery, such as the peace sign or the skull and crossbones, to add additional meaning and context to the work.",
+antiStyleGraffiti,concept,anti style (graffiti),stylesStreetArt,Concept,style,Anti style $$ Anti Style $$ Ugly Style $$ ugly style $$ Ugly style,"[Writing styles]
+- is a graffito (more like writing) style
+- styling of words etc
+We would suggest add all styles (graffiti, verbal, symbolic and street art) under this branch, and add a new hierarchical term for all the four elements. But does this actually make sense? This needs to be discussed!",,"The term ""anti style"" in the context of graffiti refers to a deliberately unfinished, rough, or chaotic approach to creating graffiti. Graffitists who use an anti style often aim to create works that are raw, spontaneous, and free from the constraints of traditional graffiti techniques.
+
+To create an anti style graffiti piece, a graffitist might use a variety of techniques, such as sketchy lines, messy drips, and distorted shapes. The graffitist might also incorporate elements of chance, randomness, and accident into their work, to create a sense of unpredictability and spontaneity. Overall, the anti style is a unique and challenging approach to graffiti, and can be used by graffitists to create works that are raw, spontaneous, and free from the constraints of traditional techniques.",,,,,,"An example of an anti style graffiti piece is a composition that uses sketchy lines, distorted shapes, and messy drips to create a chaotic, unplanned effect. The graffitist might use a variety of colors, but without any clear organization or pattern. The composition could also incorporate elements of randomness, such as drips or splatters that appear to have been applied accidentally or spontaneously.",
+arrowsLetterAttribute,concept,arrows (letter attribute),letterformComponents,Concept,,arrow (letter attribute),,,,,,,,,,
+arrowsMotif,concept,arrows (motif),motifs,Concept,design,arrow (motif) $$ arrows $$ arrow,,,,,,https://www.wikidata.org/wiki/Q1139519,skos:closeMatch,,,
+AssociatedConceptsF,facet,Associated Concepts <facet>,,Concept,,,taken from the Getty AAT,,,,,,,,,
+AssociatedConceptsHN,hierarchy name,Associated Concepts <hierarchy name>,AssociatedConceptsF,Concept,,,taken from the Getty AAT,,,,,,,,,
+attributesAndPropertiesBySpecificTypeGT,guide term,attributes and properties by specific type <guide term> ,AssociatedConceptsHN,Concept,,,taken from the Getty AAT,,,,,,,,,
+backgroundsGraffiti,concept,backgrounds (graffiti),graffitiConcepts,Concept,componentPart,background (graffiti),"Could it be both:
+- first layer of paint to buff the underlying graffito/ graffiti
+- pattern and design that is in the background of the graffito
+
+What is the first covering of the wall called? Also background? --> we call it PRIMING",,,,,,,,,
+backgroundsPriming,concept,backgrounds (priming),surfaceCoveringProcessesAndTechniquesGT,Concept,componentPart $$ activity,background (priming),taken from the Getty AAT,,,,,https://www.wikidata.org/wiki/Q13217555,skos:broadMatch,,,
+battlesGraffiti,concept,battles (graffiti),publicAndInteractiveActivitiesGT,Concept,communityTerm,battles $$ battle $$ battle (graffiti),"- could this be an activity? Like battleing should be part here
+- the battle then is what remains?",,,,,https://www.wikidata.org/wiki/Q105826326,skos:broadMatch,,,
+bitingsGraffiti,concept,bitings (graffiti),publicAndInteractiveActivitiesGT,Concept,communityTerm,biting (graffiti) $$ bitings $$ biting,"- an activity
+- copying
+- the result is the a ""bite""?
+- younger/ newer/ beginners are learning this way by copying graffiti of other people
+- a negative activity
+frauned apon when you copy a work (and then take credit for thsi)
+
+Make this like ""bombing"" - in regard to the hierarchical position? Is it a similarish activitiy (not by the meaning but by the intend)?",,,http://vocab.getty.edu/page/aat/300053257 ,closeMatch,,,,,
+blackBooksGraffiti,concept,black books (graffiti),sketchbooks,Concept,communityTerm,"blackbooks $$ blackbook $$ black book $$ book, black $$ books, black $$ black book (graffiti)","- the book that has sketches and designs and probably tags inside
+- in the old days also had printed pictures
+- could be maybe also seen as a friendships book, where you connect tags (and maybe sketches) from other graffitists
+- similar to an artists skecthbook
+- there you practice and kind of protocol the way your skills and ideas are developing
+taken from the Getty AAT, also the hierarchical structure",,,http://vocab.getty.edu/page/aat/300379259 ,exactMatch,,,,,
+blockbusterStyleGraffiti,concept,blockbuster style (graffiti),stylesWriting,Concept,style,"style, blockbuster $$ blockbuster style $$ Blockbuster style $$ Blockbuster Style","[Writing styles]
+- this is a graffiti style (of the type writing and definetly not connected to street art)
+- one of the oldest styles",,,,,,,,,
+blocksGraffiti,concept,blocks (graffiti),letterformComponents,Concept,componentPart,block (graffiti) $$ block $$ blocks,"- like 3D, or is one option to a a three-dimentional result of the writing
+- or is this a simple block style letter?
+- Or should we treat this like ""background""?",,,http://vocab.getty.edu/page/aat/300211042,broadMatch,,,,,3dGraffiti
+bombingGraffiti,concept,bombing (graffiti),publicAndInteractiveActivitiesGT,Concept,communityTerm $$ activity,bombing,"- in the community, this could be apparently both: something like a throw-up/ something done quickly, but also the activity of creating A LOT of graffiti","In the context of graffiti, bombing denotes prolific and repeated renderings of a single 'tag' in a given physical area in order to attract recognition.",,http://vocab.getty.edu/page/aat/300410273,exactMatch,,,,,
+bubbleStyleGraffiti,concept,bubble style (graffiti),stylesWriting,Concept,style,"style, bubble $$ Bubble Style $$ Bubble style","[Writing styles]
+- a style in which the letters (of the writing) are appearing",,,,,,,,,
+bubblesMotif,concept,bubbles (motif),motifs,Concept,design,bubble (motif),"- a motif or symbol or sign
+- but it also could be a pattern, especially if it appears in the background or in the filling of the letters
+- mostly appear in a state of multiples, so better to say bubbles
+- it can appear in the filling of the letters, as a part of the design (like in street art the bubbles of a fish) or in the background",,,http://vocab.getty.edu/page/aat/300443508,broadMatch,https://www.wikidata.org/wiki/Q75794,skos:broadMatch,,,cloudsMotifs
+buffingsGraffiti,concept,buffings (graffiti),publicAndInteractiveActivitiesGT,Concept,communityTerm,buffing,"- an activity
+- there should be a a noun, the end result of the activity, attached here, like the ""buff"" 
+- It can be either something positive and respectful (like the total covering of the underlying graffito to start creating your own work), something playful (like the graffitist playging with the coverers by creating somehing new via the buffers - the people that cover) and then the completely negative (buffing via a company, order etc) - which can be two types either covering the graffito with a layer of paint or erasing it by scraping it of.
+- always considered in a negative way by a creator; would not be associated with a creator.",,,,,,,,,
+BuiltEnvironmentHN,hierarchy name,Built Environment <hierarchy name>,ObjectsF,Concept,,,,,,,,,,,,
+burnersGraffiti,concept,burners (graffiti),graffitiConcepts,Concept,communityTerm,burner (graffiti) $$ burners $$ burner,"I do not see this like the hierarchical situation in the Getty
+THis is a concept, quite objective
+- a really good - the best - graffito
+- this is an aspect that also depends on the judger and audience
+- it is kind of like a title and appreciation of the graffito
+- my personal question: how did this concept changed nowadays as the graffitists have more time to finsih their work?",,,http://vocab.getty.edu/page/aat/300410278 ,exactMatch,,,,,
+calligraffitiStyle,concept,calligraffiti (style),stylesGraffiti,Concept,style,calligraffito (style) $$ calligraffiti $$ calligraffito,"[Writing styles]
+- it is a specific way a graffito (more like tag) is looking, so it is a style
+- also a techniques (really specific technique)",,,,,https://www.wikidata.org/wiki/Q22669850,skos:broadMatch,,,
+charactagGraffiti,concept,charactags (graffiti),charactersWriting,Concept,graffitoType,charactag,"[graffiti] --> [Writing] --> [Tag]
+- a tag drawn with a marker
+- a character that appears more regularly around the streets
+- recognisable character (maybe)
+- it is like a signature of the graffitist (making them also recognisable)
+- related to both: tags and characters
+--> but I would add this more to the tag, reason, because it could be any kind of character (figure) but the tag is something quite specific
+--> or is this better to add beneath character, because it might not be obvious if this is a charactag, but it might be clear that it is a character",,,,,,,,,tagsGraffiti
+charactersStreetArt,concept,characters (street art),figureWorks,Concept,graffitoType,character (street art),,,,,,,,,,
+charactersWriting,concept,characters (writing),figuresRepresentations,Concept,graffitoType,character (writing),"- it could be the main motif, but also like a side motif
+- I think it stems from cartoonic characters
+- I think nowadays also other characters like animals, human body parts, robots etc are part of this description. 
+Character: is this everything that has a figure/ animal/ humanoid included in either the writing or the street art work
+
+we have to define it. Is it a cartoon character only? Would it only refer to a motif in a writing or could it be a street art component as well?
+Could we see the ""Character"" as a subcategory of ""figures (representations)"" - Getty AAT concept ?",,,,,,,,,
+cloudsMotifs,concept,clouds (motifs),motifs,Concept,design,cloud (motif),"- a motif or symbol
+--> also a pattern
+- like the bubble, actually accures in multiple --> ""clouds""
+- can be part of the background
+- just see the ""bubbles""",,,http://vocab.getty.edu/page/aat/300343840 ,closeMatch,https://www.wikidata.org/wiki/Q8074,skos:broadMatch,,,bubblesMotif
+commissionedWorksGraffiti,concept,commissioned works (graffiti),graffitiConcepts,Concept,conceptIdea,commissioned work (graffiti),"- this can be every time of graffito
+- often connected to owned walls
+- a totally legal graffito
+- could be done by multiple graffitists working together
+- mostly and often connected to a certain amount of advertisment
+
+Correct description? 
+There seems something wrong in the description, would be good to elaborate
+
+We are defining a work from a social-economical perspective --> does it make sense? Or should that be changed?","Orders, charges, projects, or activities requested and usually financed by one party and ordered or entrusted to an artist or other party to perform or execute, for example a commission may be made for a particular art work. For the process of assigning or granting a commission, use ""commissioning (function).",,http://vocab.getty.edu/page/aat/300400904,exactMatch,,,,,
+communityTerm,collection,community term,,Collection,,,,,,,,,,,,
+componentPart,collection,component part,,Collection,graffitoComponent,,,,,,,,,,,
+componentsObjectsParts,concept,components (objects parts),ComponentsHN,Concept,,,taken from the Getty AAT,,,,,,,,,
+ComponentsHN,hierarchy name,Components <hierarchy name>,ObjectsF,Concept,,,taken from the Getty AAT,,,,,,,,,
+componentsBySpecificContextGT,guide term,components by specific context <guide term>,componentsObjectsParts,Concept,,,taken from the Getty AAT,,,,,,,,,
+computerNetworkingConcepts,concept,computer networking concepts,informationTechnology,Concept,,,taken from the Getty AAT,,,,,,,,,
+conceptIdea,collection,concept idea,,Collection,graffitoComponent,,,,,,,,,,,
+conceptWallsGraffiti,concept,concept walls (graffiti),graffitiConcepts,Concept,conceptIdea,concept wall (graffiti),,,,,,,,,,
+conceptsInTheArtsAndHumanitiesGT,guide term,concepts in the arts and humanities <guide term>,AssociatedConceptsHN,Concept,,,taken from the Getty AAT,,,,,,,,,
+connectionsGraffiti,concept,connections (graffiti),outlinesGraffiti,Concept,conceptIdea,connection (graffiti),,,,,,https://www.wikidata.org/wiki/Q230629,skos:broadMatch,,,
+cracksMotif,concept,cracks (motif),motifs,Concept,design,crack (motif),"not al all as these are conditions and not design elements aka part of a painting, but as these painting elements are mimicking the real (age, mechanical etc) cracks, this also could be seen as broadMatch.
+- a more like pattern that can be either in the background or in the filling of the letters
+- NOTHING to do with the condition of the graffito
+- but still motif is the best category, because patterns might be only for exactly repeated elements",,,http://vocab.getty.edu/page/aat/300209168 ,broadMatch,,,,,
+crewsGraffiti,concept,crews (graffiti),groupsOfPeople,Concept,graffitoCreator,crew (graffiti),"- a group of graffitists
+- can be from two to many graffitists",,,http://vocab.getty.edu/page/aat/300192630 ,broadMatch,https://www.wikidata.org/wiki/Q345844,skos:closeMatch,,,
+crossingOutGraffiti,concept,crossing out (graffiti),publicAndInteractiveActivitiesGT,Concept,conceptIdea,crossing,,,,,,,,,,
+crownsMotifs,concept,crowns (motif),motifs,Concept,design,crown (motif),"- can be a motif or symbol
+- also as a concept related to the ""king"" as it shows the crowing of a king aka a great master in the graffiti community/ a great graffitists which excels either in quality or quantity of graffiti",,,http://vocab.getty.edu/page/aat/300046020 ,closeMatch,https://www.wikidata.org/wiki/Q908430,skos:closeMatch,,,
+cutOutsGraffiti,concept,cut outs (graffiti),pasteUpsGraffiti,Concept,graffitoType,cut out (graffiti) $$ cutouts $$ cutout,"[graffiti] --> [Street Art]
+- a poster, that has been cut out and pasted on a wall/ surface
+- could show a figure/ character
+- also could be writing","Shapes, forms, or figures cut from, or intended to be cut from, pieces of material such as paper, cardboard, wood, or cloth.",,http://vocab.getty.edu/page/aat/300257411 ,closeMatch,https://www.wikidata.org/wiki/Q5137101,skos:closeMatch,,,
+dedicationsGraffiti,concept,dedications (graffiti),graffitiConcepts,Concept,conceptIdea,dedication (graffiti) ,"- a graffito that was dedicated to a person, which is then often named in the piece itselfes
+- can also be multiple people or even a crew",,,http://vocab.getty.edu/page/aat/300026114,closeMatch,https://www.wikidata.org/wiki/Q1898184,skos:broadMatch,,,
+design,collection,design,,Collection,graffitoComponent,,,,,,,,,,,
+designElementsAttributes,concept,design elements (attributes),DesignElementsHN,Concept,,,taken from the Getty AAT,"Fundamental ideas and components or parts that are observable in a visual design or work of art, such as lines, points, movement, forms, spaces, colors, textures, and patterns, among others.",,http://vocab.getty.edu/page/aat/300009699 ,exactMatch,,,,,
+DesignElementsHN,hierarchy name,Design Elements <hierarchy name>,PhysicalAttributesF,Concept,,,taken from the Getty AAT,,,,,,,,,
+documentGenres,concept,document genres,informationFormsObjects,Concept,,,,,,,,,,,,
+documentsByFunctionGT,guide term,documents by function <guide term> ,documentGenres,Concept,,,,,,,,,,,,
+drippingTechnique,concept,dripping (technique),surfaceCoveringProcessesAndTechniquesGT,Concept,activity,,,Technique of creating paintings by dripping or pouring paint in a semi-controlled manner onto the support.,,http://vocab.getty.edu/page/aat/300053347 ,closeMatch,,,,,
+dripsBeginnersMark,concept,drips (beginners' mark),accidentalSurfaceCoveringProcessesGT,Concept,,drip (beginners' mark),"- the sign that this work might be done by a beginner aka toy
+- physical attribute that points to a beginner",,,,,,,,,
+dripsMotif,concept,drips (motif),motifs,Concept,design,drip (motif),"- can be a technqiue but also the resulting graffiti
+- has a specific style
+- is a reductive technique",,,,,,,,,
+etchingTechnique,concept,etching (technique),subtractiveProcessesAndTechniquesGT,Concept,activity,,"not sure if the Getty AAT concept ""etching (corroding)"" is not the right one and correct
+
+taken from the Getty AAT
+
+select sub-concept ""biting"", specifically with acids",,,http://vocab.getty.edu/page/aat/300053840 ,closeMatch,https://www.wikidata.org/wiki/Q186986,skos:exactMatch,,,
+etchingsGraffiti,concept,etchings (graffiti),writingGraffiti,Concept,graffitoType,etching (graffiti),,,,,,,,,,
+fadingsGraffiti,concept,fadings (graffiti),graffitiConcepts,Concept,componentPart,fading (graffiti),"[Fill In]
+- a specific painting technique, that basically creates a gradient 
+- can be either the fill in of the letters, but also the background
+- fading one colour into the other
+- but it is not only a technique, but also the outcome",,,,,,,,,
+fame,concept,fame,sociologicalConcepts,Concept,communityTerm,,taken from the Getty AAT,"Action or condition of being much talked about, chiefly in a good sense. Reputation derived from great achievements, celebrity, honor, renown.",,http://vocab.getty.edu/page/aat/300417274 ,exactMatch,https://www.wikidata.org/wiki/Q1519566,skos:exactMatch,,,
+figureWorks,concept,figure works,visualWorksByFunctionGT,Concept,,,,,,,,,,,,
+figuresRepresentations,concept,figures (representations),visualWorksByFunctionGT,Concept,,,,"Representations of humans, animals, or mythical beasts, in any medium.
+ ",, http://vocab.getty.edu/page/aat/300189808,closeMatch,,,,,
+fillInsGraffiti,concept,fill ins (graffiti),graffitiConcepts,Concept,componentPart,fill in (graffiti),"- the fill in of the letter
+- can be done with different techniques, styles, motifs
+- Maybe not a ""design element"" in the Getty AAT sense",,,,,,,,,
+firstLiniesGraffiti,concept,first lines (graffiti),outlinesGraffiti,Concept,componentPart,"first line (graffiti) $$ lines, frist (graffiti) $$ line, first (graffiti)","- the sketch
+- the first outline, that helps map out the graffito and where every thing goes, it then often gets covered (by the fill in)
+--> borders (ornament ...)",,,http://vocab.getty.edu/page/aat/300015618,closeMatch,,,,,
+firstRowsGraffiti,concept,first rows (graffiti),openSpacesByLocationOrContextGT,Concept,,"rows, first (graffiti) $$ first row (graffiti)","- easy to reach level on a wall.
+- often gets covered
+- reachable just by standing on the ground --> needs no special equipment to reach this level",,,,,,,,,
+formAttributes,concept,form attributes,attributesAndPropertiesBySpecificTypeGT,Concept,,,taken from the Getty AAT,,,,,,,,,
+genderSignsMotifs,concept,gender signs (motifs),motifs,Concept,signAndElement,gener sign (motif),- a sign and motif,,,,,https://www.wikidata.org/wiki/Q48277,skos:closeMatch,,,
+geometricStyleGraffiti,concept,geometric style (graffiti),stylesWriting,Concept,style,"style, geometric","[Street Art Style]
+- writing: letters are created in a geometric way
+- like geometrical forms ",,,,,https://www.wikidata.org/wiki/Q43114389,skos:broadMatch,,,
+gettingUpGraffiti,concept,getting up (graffiti),fame,Concept,communityTerm,"up, getting","- becoming famous
+- either by quality or quantity",,,,,,,,,
+glories,concept,glories,motifs,Concept,,,taken from the Getty AAT,,,,,,,,,
+graffiti,concept,graffiti,visualWorksByLocationOrContextGT,Concept,graffitoClass,graffito,"- the work that appears in the public, communal (and also private) space
+- ""graffiti as objects""
+--> also how are we putting ""graffiti as activities"" and ""graffiti as style"" into our thesaurus, or do we not put it in there?? ",,,http://vocab.getty.edu/page/aat/300015613 $$ http://vocab.getty.edu/page/aat/300410270 ,closeMatch $$ closeMatch,https://www.wikidata.org/wiki/Q17514,skos:exactMatch,,,
+graffitiConcepts,concept,graffiti concepts,conceptsInTheArtsAndHumanitiesGT,Concept,,,taken from the Getty AAT,,,,,,,,,
+graffitists,concept,graffitists,peopleInTheArtsAndRelatedOccupationsGT,Concept,graffitoCreator,graffitist,- the creator of a graffito,"Refers to people who create humorous, satiric, obscene, or gang-related writings or drawings that are executed anonymously in public places, usually on walls and typically illegally.",,http://vocab.getty.edu/page/aat/300312066,closeMatch,https://www.wikidata.org/wiki/Q15095148,skos:exactMatch,,,
+graffitoClass,collection,graffito class,,Collection,,,,,,,,,,,,
+graffitoComponent,collection,graffito component,,Collection,,,,,,,,,,,,
+graffitoCreator,collection,graffito creator,,Collection,,,,,,,,,,,,
+graffitoType,collection,graffito type,,Collection,,,,,,,,,,,,
+greetingsGraffiti,concept,greetings (graffiti),graffitiConcepts,Concept,conceptIdea,greeting (graffiti),"- greeting a person, crew fellow graffiist in our graffiti
+- Same hierarchy as dedication",,,,,https://www.wikidata.org/wiki/Q50809272,skos:relatedMatch,,,
+groupsOfPeople,concept,groups of people,peopleAgents,Concept,,,taken from the Getty AAT,General term for types of groups of people.,,http://vocab.getty.edu/page/aat/300192630 ,exactMatch,,,,,
+hallsOfFameGraffiti,concept,halls of fame (graffiti),openSpacesByLocationOrContextGT,Concept,,hall of fame (graffiti),"- a well-known area were a lot of graffiti are created
+- this is similar to a gallery in this reagrd that you can go there and visit and observe different ind of graffiti from different graffitist, but other like a art gallery, this room is not being curated
+There is ""hall of fame"" in Getty AAT, but it refers to a built environment, while the concept in the graffiti community is more general and also open to interpretation and different definitions; so this needs some futher discussion where to put it",,,http://vocab.getty.edu/page/aat/300005813 ,broadMatch,https://www.wikidata.org/wiki/Q1046088,skos:relatedMatch,,,
+halosGlories,concept,halos (glories),glories,Concept,,halo (glories),,"Glories that comprise a circle, disk, series of lines, or rays of light with which the head of the sacred personage is surrounded. In Hellenistic and Roman art, halos are worn by the sun-god Helios and Roman emperors often appear with a crown of rays. The imagery was picked up in Christian art.",,http://vocab.getty.edu/page/aat/300375684 ,exactMatch,https://www.wikidata.org/wiki/Q3341893,skos:exactMatch,,,
+halosGraffiti,concept,halos (graffiti),halosGlories,Concept,design,halo (graffiti),"- a holy sign, motif
+- like the ""crown"" - related to this actually - it shows the greatness of the graffitist off",,,,,,,,,
+handstylesGraffiti,concept,handstyles (graffiti),graffitiConcepts,Concept,communityTerm,handstyle,"In my opinion:
+- the graffitists signature 
+- present in the tag
+- this is the tag style the graffitist is known for and can be identified with
+- can appear on a writing (or also street art work maybe?) ike an artists signes his or her work, this is done by a graffitist as well
+
+--> would be also interesting to talk here about if a handstyle could accure in a piece, like with SKIRL he has a quite unique style",,,,,https://www.wikidata.org/wiki/Q16873917,skos:exactMatch,,,
+heartsMotifs,concept,hearts (motifs),motifs,Concept,signAndElement,heart (motif),"- a motif, but maybe could also be a pattern
+- and also the letters can be at the end in a heart shape",Refers to the highly conventionalized figure based on the shape of the human heart.,,http://vocab.getty.edu/page/aat/300009874 ,exactMatch,https://www.wikidata.org/wiki/Q826930,skos:exactMatch,,,
+helloMyNameIsGraffiti,concept,Hello My Name Is (graffiti),stylesSticker,Concept,style,,"- a specific type of sticker, that is the basis for a tag (or handstyle)",,,,,,,,,
+highlightsGraffiti,concept,highlights (graffiti),outlinesGraffiti,Concept,componentPart,highlight (graffiti),"- can be either lines or star-shaped
+- highlighting in a light colour (often white) the letters
+- mimicks the sun or light bulb light reflecting off at this place
+- complementary (?) to the shadow","The technique of adding white or light media on a medium-toned or dark ground. The term is usually reserved for drawing, but painting and other image-making processes may also employ highlighting.",,http://vocab.getty.edu/page/aat/300389864,closeMatch,https://www.wikidata.org/wiki/Q2412125,skos:closeMatch,,,
+informationFormComponents,concept,information form components,componentsBySpecificContextGT,Concept,,,taken from the Getty AAT,,,,,,,,,
+informationFormsObjects,concept,information forms (objects),InformationFormsHN,Concept,,,,,,,,,,,,
+InformationFormsHN,hierarchy name,Information Forms <hierarchy name>,VisualAndVerbalCommunicationHN,Concept,,,,,,,,,,,,
+informationTechnology,concept,information technology,technologyGeneralAssociatedConcept,Concept,,,taken from the Getty AAT,,,,,,,,,
+inlinesGraffiti,concept,inlines (graffiti),outlinesGraffiti,Concept,componentPart,inline (graffiti),,,,,,,,,,
+kingsGraffiti,concept,kings (graffiti),peopleByStateOrConditionGT,Concept,communityTerm,king (graffiti),"- is ""crowned"" by the community
+- could show this by adding a halo or crown to the tag or writing
+- is on the right step of ""getting up"" (at least among the graffitists)
+- We conclude, as ""king"" is linked to ""getting up"" in the graffiti community (and also outside) we see it more as a celebrity thing rather than having an expert level of knowledge on how to draw stuff.",,,http://vocab.getty.edu/page/aat/300025481,broadMatch,https://www.wikidata.org/wiki/Q12097,skos:broadMatch,,,
+letterShadowsGraffiti,concept,letter shadows (graffiti),outlinesGraffiti,Concept,,"shadows, letter (graffiti) $$ letter shadow (graffiti)","- a design element
+- the shadow of a letter (or also a character) to show a three-dimensional word (or character) 
+- the opposit of the highlight --> in the opposit direction of the highlight ",,,http://vocab.getty.edu/page/aat/300056036 ,closeMatch,,,,,
+letterformComponents,concept,letterform components,letterforms,Concept,,,taken from the Getty AAT,,,,,,,,,
+letterforms,concept,letterforms,lettersSigns,Concept,,,taken from the Getty AAT,,,,,,,,,
+lettersSigns,concept,letters (signs),phoneticSigns,Concept,,,taken from the Getty AAT,,,,,,,,,
+mechanicalStyleGraffiti,concept,mechanical style (graffiti),stylesWriting,Concept,style,"style, mechanical","[Writing styles]
+- a style that is connected to writing (tag, piece, throw-up etc)",,,,,,,,,
+memorialsGraffiti,concept,memorials (graffiti),graffitiConcepts,Concept,conceptIdea,memorial (graffiti),"- It can be considered in two meanings: or an addition to a graffito to remember someone, or a graffito that is being preserverd to remember someone
+- Furthermore, the Purpose of a graffito might change over time --> reflect on our definition",,,http://vocab.getty.edu/page/aat/300006956,broadMatch,https://www.wikidata.org/wiki/Q5003624,skos:broadMatch,,,
+messagesGraffiti,concept,messages (graffiti),graffitiConcepts,Concept,componentPart,message (graffiti),"Can be two things:
+1. is part of the graffito and like a dedication can be a message to the fellow graffitist, a crew or other people
+2. can also refer to the message the graffito wants to send as a whole. This differs from the creator of the graffito, the observer and even the researcher, how each of them perceive the message of the graffito.",,,,,https://www.wikidata.org/wiki/Q628523,skos:broadMatch,,,
+minimalismGraffiti,concept,minimalism (graffiti),stylesStreetArt,Concept,style,,"I put the name here in small letters, as I suspect that this is not the Minimal art style
+A graffito style:
+- minimalistic writing
+- but could it also be a street art style, which is influenced by the real art style ""Minimal""",,,http://vocab.getty.edu/page/aat/300065758,broadMatch,https://www.wikidata.org/wiki/Q173436,skos:broadMatch,,,
+mirroredGraffiti,concept,mirrored (graffiti),graffitiConcepts,Concept,style,,"[Writing styles]? 
+Or os this more an orientation of the writing?
+- the writing of a graffito in a mirrored form",,,,,,,,,
+mosaicTechnique,concept,mosaic (technique),surfaceCoveringProcessesAndTechniquesGT,Concept,activity,,,"A method of decorating surfaces with patterns or pictures composed of small, regularly-shaped pieces of colored durable material, such as stone or glass.",,http://vocab.getty.edu/page/aat/300138684,exactMatch,,,,,
+mosaicsGraffiti,concept,mosaics (graffiti),streetArtGraffiti,Concept,graffitoType,mosaic (graffiti),"- a graffito created out of tiny pieces from tiles, glass or even mirrors and these small pieces of material then make up a bigger piece when put together.
+- it is an additive technique
+- attached to a surface
+- as this is a ""graffito as object"", what would then be the ""graffito as activtity""? "," Images or patterns composed of small, regularly shaped pieces of durable material, usually stone or colored glass. Distinguished from ""opus sectile,"" which is composed of individually shaped pieces of durable material, usually stone or glass, which conform to the design or pattern.",,http://vocab.getty.edu/page/aat/300015342,exactMatch,https://www.wikidata.org/wiki/Q133067,skos:exactMatch,,,
+motifs,concept,motifs,designElementsAttributes,Concept,,motif,taken from the Getty AAT,,,,,,,,,
+muralsStreetArt,concept,murals (street art),streetArtGraffiti,Concept,graffitoType,mural (street art),"[graffiti] --> [Street Art]
+Are we adding the types below?
+- a type of graffito
+- more connected to Street Art? What are the dimensions here? Often referred to as covering a complete wall
+- there is no clear line if it is now only a street art work or a writing ","Painted decorations or scenes that dominate a wall (or ceiling) surface. For works in other media that dominate a wall (or ceiling), use the more general term ""murals (any medium)"".",,http://vocab.getty.edu/page/aat/300033644,exactMatch,https://www.wikidata.org/wiki/Q219423,skos:exactMatch,,,
+muralsWriting,concept,murals (writing),writingGraffiti,Concept,graffitoType,mural (writing),,,,,,,,,,
+naturalElementMotifs,concept,natural element motifs,motifs,Concept,,,,,,,,,,,,
+ObjectsF,facet,Objects <facet>,,Concept,,,taken from the Getty AAT,,,,,,,,,
+openSpaces,concept,open spaces,OpenSpacesAndSiteElementsHN,Concept,,,,,,,,,,,,
+OpenSpacesAndSiteElementsHN,hierarchy name,Open Spaces and Site Elements <hierarchy name>,BuiltEnvironmentHN,Concept,,,,,,,,,,,,
+openSpacesByLocationOrContextGT,guide term,open spaces by location or context <guide term>,openSpaces,Concept,,,,,,,,,,,,
+organicStyleGraffiti,concept,organic style (graffiti),writingsStyle,Concept,style,"style, organic ","[Writing styles]
+- a writing style I would assume
+- organic looking, so like a tree, something growing and maybe blending into its surrounding really nicely (if it is nature).
+- smooth forms",,,http://vocab.getty.edu/page/aat/300191632 ,broadMatch,,,,,
+outlinesGraffiti,concept,outlines (graffiti),letterformComponents,Concept,componentPart,outline (graffiti),,,,,,,,,,
+paintStencilTechnique,concept,paint stencil (technique),surfaceCoveringProcessesAndTechniquesGT,Concept,activity,"stencil, paint (technique)",,-,,http://vocab.getty.edu/page/aat/300428775 ,exactMatch,,,,,
+paperStyleGraffiti,concept,paper style (graffiti),stylesWriting,Concept,style,"style, paper","[Writing styles]
+- writing style
+- I guess could look like a folded paper?",,,,,https://www.wikidata.org/wiki/Q11472,skos:relatedMatch,,,
+pasteUpsGraffiti,concept,paste ups (graffiti),streetArtGraffiti,Concept,graffitoType,paste up (graffiti),"- a poster added with wheatpaste
+- something got added (additive technique)
+- as an object: could be connected either to street art or actually this is probably mostley a ""verbal graffiti"" type ","Graffiti art comprising images, usually on paper, affixed to surfaces using a wheat flour mixture.",,http://vocab.getty.edu/page/aat/300410376 ,exactMatch,https://www.wikidata.org/wiki/Q484196,skos:exactMatch,,,
+peopleAgents,concept,people (agents),PeopleHN,Concept,,,taken from the Getty AAT,,,,,,,,,
+PeopleHN,hierarchy name,People <hierarchy name>,AgentsF,Concept,,,taken from the Getty AAT,,,,,,,,,
+peopleByOccupationGT,guide term,people by occupation <guide term>,peopleAgents,Concept,,,,,,,,,,,,
+peopleByStateOrConditionGT,guide term,people by state or condition <guide term>,peopleAgents,Concept,,,taken from the Getty AAT,,,,,,,,,
+peopleInTheArtsAndRelatedOccupationsGT,guide term,people in the arts and related occupations <guide term>,peopleInTheHumanitiesGT,Concept,,,,,,,,,,,,
+peopleInTheHumanitiesGT,guide term,people in the humanities <guide term>,peopleByOccupationGT,Concept,,,,,,,,,,,,
+phoneticSigns,concept,phonetic signs,scriptAndTypeSigns,Concept,,,taken from the Getty AAT,,,,,,,,,
+photorealisticStyleGraffiti,concept,photorealistic style (graffiti),stylesStreetArt,Concept,style,"style, photorealistic","[Street Art Styles]
+-  a style often connected to street art and art itself
+- drawing something that looks as realistic as a picture/ photograph",,,http://vocab.getty.edu/page/aat/300022201,closeMatch,https://www.wikidata.org/wiki/Q939559,skos:relatedMatch,,,
+physicalActivitiesBySpecificContextGT,guide term,physical activities by specific context <guide term>,PhysicalAndMentalActivitiesHN,Concept,,,taken from the Getty AAT,,,,,,,,,
+PhysicalAndMentalActivitiesHN,hierarchy name,Physical and Mental Activities <hierarchy name>,ActivitiesF,Concept,,,taken from the Getty AAT,,,,,,,,,
+PhysicalAttributesF,facet,Physical Attributes <facet>,,Concept,,,taken from the Getty AAT,,,,,,,,,
+piecesGraffiti,concept,pieces (graffiti),writingGraffiti,Concept,graffitoType,piece (graffiti) $$ masterpieces $$ masterpiece,"[graffiti] --> [Writing]
+- short form for ""masterpiece"", now more common
+- complex and more timely than a throw-up
+- a writing type","Works of graffiti art that are large, colorful, and stylistically elaborate and that require a greater amount of time and expertise to create.",,http://vocab.getty.edu/page/aat/300410272,exactMatch,,,,,
+ProcessesAndTechniquesHN,hierarchy name,Processes and Techniques <hierarchy name>,ActivitiesF,Concept,,,,,,,,,,,,
+processesAndTechniquesBySpecificTypeGT,guide term,processes and techniques by specific type <guide term>,ProcessesAndTechniquesHN,Concept,,,,,,,,,,,,
+productionsGraffiti,concept,productions (graffiti),graffitiConcepts,Concept,conceptIdea,production (graffiti),"- two or more graffititists are working together (at the same time) but not necessarily on the same piece, more like next to each other
+- this is often clear if the same background colouring is used and can go even further if the same spray can colours are used or the works are even a bit intertwined.","Larger and more involved graffiti art 'pieces' that involve several artists working together. These are achieved legally, where permission has been granted or the work commissioned.",,http://vocab.getty.edu/page/aat/300410281,exactMatch,,,,,
+publicAndInteractiveActivitiesGT,guide term,public and interactive activities <guide term>,physicalActivitiesBySpecificContextGT,Concept,,,taken from the Getty AAT,,,,,,,,,
+reverseGraffitiTechnique,concept,reverse graffiti (technique),subtractiveProcessesAndTechniquesGT,Concept,activity,,"- is a substractive technique
+- done when there is a layer of snow or dirt, that can be scraped or taken off",,,,,,,,,
+reverseGraffitiWriting,concept,reverse graffiti (writing),writingGraffiti,Concept,graffitoType,"reverse graffito (writing) $$ graffiti, reverse $$ graffito, reverse",,,,,,https://www.wikidata.org/wiki/Q1810315,skos:exactMatch,,,
+rollUpsGraffiti,concept,roll ups (graffiti),writingGraffiti,Concept,graffitoType,roll up (graffiti),"- a banner (bigger poster)
+- something gets added
+- covers a wall, and is hanging down via a strick/ string --> this seems to be more the general understanding of a ""roll up"" 
+--> regarding graffiti: it is done with paint and a painter's role, so still adding something",,,,,,,,,
+rollingUpTechnique,concept,rolling up (technique),surfaceCoveringProcessesAndTechniquesGT,Concept,activity,,,Applying ink to a printing plate or block or through a stencil with a roller.,,http://vocab.getty.edu/page/aat/300053313,closeMatch,,,,,
+scratchingTechnique,concept,scratching (technique) ,subtractiveProcessesAndTechniquesGT,Concept,activity,,,"The action, process, or technique of making slight linear abrasions on a surface of any kind. May refer to damage, or to a technique for creation of art, such as in printmaking.",,http://vocab.getty.edu/page/aat/300379457,exactMatch,,,,,
+scratchingsGraffiti,concept,scratchings (graffiti),writingGraffiti,Concept,graffitoType,scratchning (graffiti),"- a subtractive technique; but also the object itself
+- often done with a harder tool that the surface. Often a metal tool like a knife, but also a wooden stick can be used.
+- or even finger nails scratching into the bark of a tree","Refers to art works created by scratching or engraving a design into a board or other surface that has been prepared by covering with ink, so that the color of the board shows through the scratched design. Colored wax or paint may be applied to create a design on any paper board, or the board may be commercially produced ""scratchboard."" India ink is often used to cover the wax or paint. A stylus or other sharp instrument is generally used to scratch or scrape away the design.",,http://vocab.getty.edu/page/aat/300264764,exactMatch,,,,,
+scriptAndTypeFormsGT,guide term,script and type forms <guide term>,informationFormComponents,Concept,,,taken from the Getty AAT,,,,,,,,,
+scriptAndTypeSigns,concept,script and type signs,scriptAndTypeFormsGT,Concept,,,taken from the Getty AAT,,,,,,,,,
+sculpturesGraffiti,concept,sculptures (graffiti) ,streetArtGraffiti,Concept,graffitoType,sculpture (graffiti),"- a 3D object
+- it gets added into its surrounding (but it is often created via a substractive technique)
+- a street art type","Three-dimensional works of art in which images and forms are produced in relief, in intaglio, or in the round. The term refers particularly to art works created by carving or engraving a hard material, by molding or casting a malleable material (which usually then hardens), or by assembling parts to create a three-dimensional object. It is typically used to refer to large or medium-sized objects made of stone, wood, bronze, or another metal. Small objects are typically referred to as ""carvings"" or another appropriate term. ""Sculpture"" refers to works that represent tangible beings, objects, or groups of objects, or are abstract works that have defined edges and boundaries and can be measured. As three-dimensional works become more diffused in space or time, or less tangible, use appropriate specific terms, such as ""mail art"" or ""environmental art.""",,http://vocab.getty.edu/page/aat/300047090,exactMatch,https://www.wikidata.org/wiki/Q860861,skos:exactMatch,,,
+secondOutlinesGraffiti,concept,second outlines (graffiti),outlinesGraffiti,Concept,componentPart,"second outline (graffiti) $$ outlines, second (graffiti) $$ outline, second (graffti)","- or also the final outline
+- already described in the outline: to make the letters look good
+- further purposes of the outline (last/final outline): to make the letters pop, create a line between letters and background, maybe hide some fill in mistakes
+
+See outline --> could and should be considered as the subcategory as outline??",,,,,https://www.wikidata.org/wiki/Q59507148,skos:relatedMatch,,,
+secondRowsGraffiti,concept,second rows (graffiti),openSpacesByLocationOrContextGT,Concept,communityTerm,"rows, second $$ second row $$ row, second","- the higher up graffiti
+- could be said as being on the second level 
+- not so easy to reach, the graffititist needs be be prepared by taking a ladder along if he or she plans to create a graffito higher up
+- but because it is harder to reach, the graffiti works stay longer",,,,,,,,,
+semiWildstyleGraffiti,concept,semi Wildstyle (graffiti),stylesWriting,Concept,style,"Wildstyle, semi","- a style of writing
+- between wildstyle and simple style
+- the letters are maybe a little bit harder to read",,,,,,,,,
+shadowsGraffiti,concept,shadows (graffiti),backgroundsGraffiti,Concept,componentPart,shadow (graffiti),,"Areas of partial darkness produced by a body intercepting the direct rays of the sun or other luminary, so that radiation is unable to reach the darkened area directly.
+ ",,http://vocab.getty.edu/page/aat/300056036 ,closeMatch,https://www.wikidata.org/wiki/Q160020,skos:relatedMatch,,,
+signAndElement,collection,sign and element,,Collection,graffitoComponent,,,,,,,,,,,
+simpleStyleGraffiti,concept,simple style (graffiti),stylesWriting,Concept,style,"style, simple","[Writing styles]
+- one of the earliest graffiti writing styles
+- a writing style
+- easy to read by the observer as well as the graffitist
+- simple and easy to make --> is it common in regards to the throw up? As it was also probably quick to do, so perfect for bombing/ a throw-up?",,,,,,,,,
+sketchbooks,concept,sketchbooks,documentsByFunctionGT,Concept,,sketchbook,,,,,,,,,,
+slogansVerbalGraffiti,concept,slogans (verbal graffiti),verbalGraffitiGraffiti,Concept,graffitoType,slogan,"[graffiti] --> [Verbal Graffiti]
+- a verbal graffiti type
+- has often a clearer message put into words
+- can be one or more words, even form a sentence
+- does not neccessary have a good style/ design
+- often done quickly and with the intend to get the message over rather than to ""beautify"" the city",,,,,https://www.wikidata.org/wiki/Q42470,skos:closeMatch,,,
+smiliesGraffiti,concept,smilies (graffiti),motifs,Concept,signAndElement,smiley,"- a smiling emojii
+- a motif
+- either: two dots as eyes and a line as a mouth, or also encycled by a circle drawn around
+- a symbol type graffito
+- a schematic / simple visualisation of a human smiling","Standardized ideogrammatic symbols used to represent concepts, emotional states, or other information wordlessly and succinctly in electronic communications such as text messages, e-mail, and social media. Originally Japanese, from e: “picture, drawing” and moji “letter, character.”",,http://vocab.getty.edu/page/aat/300412189 ,broadMatch,https://www.wikidata.org/wiki/Q11241,skos:exactMatch,,,
+socialMedia,concept,social media,computerNetworkingConcepts,Concept,,,taken from the Getty AAT,"Refers to tools, usually a combination of software and database accessible through the World Wide Web, which enable persistent computer-mediated relationships that encompass social networking, blogs, wikis, and social or collaborative tagging. For specific activities that use social media, use relevent terms such as ""social networking.""",,http://vocab.getty.edu/page/aat/300312269,broadMatch,,,,,
+socialMediaHandles,concept,social media handles,socialMedia,Concept,,social media handle,"- I would add that below social media
+
+--> should this here also maybe include INSTAGRAM/ TWITTER, or even include specific handles, like that we do it social media handels (Instagram) and social media handles (Twitter)?
+
+- often part of the Instagram account",,,,,,,,,
+socialScienceConcepts,concept,social science concepts,AssociatedConceptsHN,Concept,,,taken from the Getty AAT,,,,,,,,,
+sociologicalConcepts,concept,sociological concepts,socialScienceConcepts,Concept,,,taken from the Getty AAT,,,,,,,,,
+starsMotifs,concept,stars (motifs),naturalElementMotifs,Concept,signAndElement,star,"taken from the Getty AAT
+- a motif
+- a schematic/ simple visualsiation of how humans see a star","Conventionalized figures derived from astronomical stars, having radiating points of any number.",,http://vocab.getty.edu/page/aat/300009811 ,exactMatch,https://www.wikidata.org/wiki/Q1191504,skos:exactMatch,,,
+stencilsStreetArt,concept,stencils (street art),streetArtGraffiti,Concept,graffitoType,stencil,"result/ object
+- a street art type
+- adding paint via a stencil on a wall
+- often (because of the quick nature) one in one colour
+- banksy is well known for this type of graffito"," Visual works or designs produced by using tools also called ""stencils,"" which are sheets of celluloid, paper, cardboard, or other material in which desired lettering or designs have been cut out so that ink or paint applied to the sheets will reproduce the cut-out designs on the surface beneath.",,http://vocab.getty.edu/page/aat/300028878,exactMatch,https://www.wikidata.org/wiki/Q504073,skos:exactMatch,,,
+stickersStreetArt,concept,stickers (street art),streetArtGraffiti,Concept,graffitoType,sticker,"- adding something to a surface
+- can have a logo, a writing or other motives ","Adhesive-backed slips of paper or similar thin material, usually bearing messages or designs.",,http://vocab.getty.edu/page/aat/300207379 ,exactMatch,https://www.wikidata.org/wiki/Q2872553,skos:exactMatch,,,
+streetArtGraffiti,concept,street art (graffiti),graffiti,Concept,graffitoClass,"art, street","[graffiti]
+- a type of graffito
+- often with an artistic component","Contemporary outdoor paintings, drawings, or three-dimensional works on walls, sidewalks, or street surfaces in public thoroughfares of urban environments, sometimes intended to draw attention to urban issues.
+ ",,http://vocab.getty.edu/page/aat/300056477 ,closeMatch,https://www.wikidata.org/wiki/Q17516,skos:closeMatch,,,
+streetArtistsGraffiti,concept,street artists (graffiti),graffitists,Concept,graffitoCreator,"street artist $$ artists, street",- the creater of a street art work,,,,,https://www.wikidata.org/wiki/Q2914170,skos:closeMatch,,,
+style,collection,style,,Collection,graffitoComponent,,,,,,,,,,,
+stylesGraffiti,concept,styles (graffiti),stylesPeriodsAndCulturesByGeneralEraGT,Concept,,graffiti style $$ style (graffiti),"- how the words and letters are styled
+- there are graffiti specific styles
+- they are changing over time
+- can be seen specific to wrting, but also street art is developing over time",,,,,,,,,
+stylesSticker,concept,styles (sticker),stylesGraffiti,Concept,,sticker style,,,,,,,,,,
+stylesStreetArt,concept,styles (street art),stylesGraffiti,Concept,,street art style,,,,,,,,,,
+stylesWriting,concept,styles (writing),stylesGraffiti,Concept,,writing style,,,,,,,,,,
+StylesAndPeriodsF,facet,Styles and Periods <facet>,,Concept,,,taken from the Getty AAT,,,,,,,,,
+StylesAndPeriodsHN,hierarchy name,Styles and Periods <hierarchy name>,StylesAndPeriodsF,Concept,,,taken from the Getty AAT,"The Styles and Periods hierarchy contains the names of art and architecture styles, historical periods, art movements, nationalities, ethnicities, and cultures (e.g., ""Renaissance,"" ""Ming,"" ""Yoruba,"" ""Celtic,"" ""Louis XIV,"" ""Italian,"" ""Paleolithic""). Relation to other hierarchies: Terms for religions, which may be considered to describe culture, are found in Associated Concepts. Terms for genres of art, including all the arts not specific to a given people or period (e.g., ""amateur art,"" ""pattern poetry"") are found in the Associated Concepts hierarchy; also here are terms for general approaches to art (e.g., ""realism"") while specific movements named after such approaches are found here (e.g., ""Realist"").",,http://vocab.getty.edu/page/aat/300015646 ,exactMatch,,,,,
+stylesPeriodsAndCulturesByGeneralEraGT,guide term,"styles, periods, and cultures by general era <guide term>",StylesAndPeriodsHN,Concept,,,taken from the Getty AAT,,,,,,,,,
+subtractiveProcessesAndTechniquesGT,guide term,subtractive processes and techniques <guide term> ,processesAndTechniquesBySpecificTypeGT,Concept,,,,,,,,,,,,
+surfaceCoveringProcessesAndTechniquesGT,guide term,surface covering processes and techniques <guide term>,additiveAndJoiningProcessesAndTechniquesGT,Concept,,,,,,,,,,,,
+swirlsMotifs,concept,swirls (motifs),motifs,Concept,design,swirl,,,,,,,,,,
+symbolsGraffiti,concept,symbols (graffiti),graffiti,Concept,graffitoClass,graffiti symbol $$ symbol (graffiti),"[graffiti]
+- a type of graffito
+- this incooporates all the symbols that can stand alone but also convey a message that everyone is familiar with like a swastika or an anarchy sign or a smiley or a star or a heart etc","Visible signs (which can include figures, such as personifications, or objects) that stand for something else, often something abstract or invisible.",,http://vocab.getty.edu/page/aat/300055878 ,closeMatch,https://www.wikidata.org/wiki/Q3695082,skos:relatedMatch,,,
+taggingTechnique,concept,tagging (technique),surfaceCoveringProcessesAndTechniquesGT,Concept,activity,,,,,,,,,,,
+tagsGraffiti,concept,tags (graffiti),writingGraffiti,Concept,graffitoType,tag,"[graffiti] --> [Writing]
+- a type of writing
+- done with a marker
+- name/ moniker of the tagger",Stylized forms of graffiti using names or initials as markers. These are considered the most basic form of graffiti art.,,http://vocab.getty.edu/page/aat/300410284 ,exactMatch,https://www.wikidata.org/wiki/Q17514,skos:relatedMatch,,,
+technologyGeneralAssociatedConcept,concept,technology (general associated concept),technologyAndRelatedConceptsGT,Concept,,,taken from the Getty AAT,,,,,,,,,
+technologyAndRelatedConceptsGT,guide term,technology and related concepts <guide term>,AssociatedConceptsHN,Concept,,,taken from the Getty AAT,,,,,,,,,
+threeDimensional,concept,three-dimensional,formAttributes,Concept,,,taken from the Getty AAT,"Having, or appearing to have, the three dimensions of length, width, and height.",,http://vocab.getty.edu/page/aat/300010331,exactMatch,,,,,
+throwUpsGraffiti,concept,throw ups (graffiti),writingGraffiti,Concept,graffitoType,throw up (graffiti) $$ throwie $$ throw-ups $$ throw-up,"[graffiti] --> [Writing]
+- a type of writing
+- can be done quickly
+- easy to do
+- can be done during a bombing acitivity
+the descirption is fitting just the hierarchy maybe not: ","Graffiti art works produced with spray paint, that spell out the artist's name in rounded letters. Usually these are rendered in two colors, one for the body and another for a contrasting outline. These are intended to cover as much surface area as possible in the shortest amount of time without regard to style or technical proficiency.",,http://vocab.getty.edu/page/aat/300410271 ,exactMatch,,,,,
+toysGraffiti,concept,toys (graffiti),peopleByStateOrConditionGT,Concept,communityTerm,toy (graffiti) $$ toy $$ toys,"See novices (http://vocab.getty.edu/page/aat/300393205). But we are using the same hierarchy as celebrities
+- this refers in our context to a person, but the Getty AAT concepts are only considering play toys (mechanical, educational, inflatable etc)
+- the beginner 
+- frauned upon/ looked down at by the other graffitist
+- not so skilled when working with spray cans
+- still has to get up
+",,,,,,,,,
+underlinesGraffiti,concept,underlines (graffiti),outlinesGraffiti,Concept,design,underline (graffiti),"- a line below the writing
+- hierarchical part of the outline",,,,,https://www.wikidata.org/wiki/Q1187096,skos:closeMatch,,,
+urbanKnittingsGraffiti,concept,urban knittings (graffiti),streetArtGraffiti,Concept,graffitoType,urban knitting (graffiti) ,"- yarn gets added
+- covering trees or other objects that can be enclosed by yarn --> not really found on walls
+
+- But we would want it like mosaic, as a process and thereby as an additive technique
+It is an exactMatch to yarn bombing in the Getty AAT, but only a closeMatch to the hierarchical location of this concept","Works in public space comprising knitted or crocheted adornments, usually installed without institutional oversight.",,http://vocab.getty.edu/page/aat/300410377 ,exactMatch,https://www.wikidata.org/wiki/Q579816,skos:exactMatch,,,
+verbalGraffitiGraffiti,concept,verbal graffiti (graffiti),graffiti,Concept,graffitoClass,verbal graffito ,"[graffiti]
+- a type of graffiti
+- see the description of slogan",,,,,,,,,
+VisualAndVerbalCommunicationHN,hierarchy name,Visual and Verbal Communication <hierarchy name> ,ObjectsF,Concept,,,,,,,,,,,,
+visualWorksWorks,concept,visual works (works) ,VisualAndVerbalCommunicationHN,Concept,,,,,,,,,,,,
+visualWorksByFunctionGT,guide term,visual works by function <guide term>,visualWorksWorks,Concept,,,,,,,,,,,,
+visualWorksByLocationOrContextGT,guide term,visual works by location or context <guide term>,visualWorksWorks,Concept,,,,,,,,,,,,
+WildstyleWriting,concept,Wildstyle (writing),stylesWriting,Concept,style,,"[Writing styles]
+- a very well-known graffiti style
+- not easy to read, often unreadable by the casual observer","A genre of graffiti art with interlocking, highly stylized and often cryptic lettering.",,http://vocab.getty.edu/page/aat/300410277,exactMatch,https://www.wikidata.org/wiki/Q1810081,skos:exactMatch,,,
+writersGraffiti,concept,writers (graffiti),graffitists,Concept,graffitoCreator,writer (graffiti),- the creator of a writing,,,,,,,,,
+writingGraffiti,concept,writing (graffiti),graffiti,Concept,graffitoClass,,"[graffiti]
+rather a movement itself than a type of a graffito and also nothing tangible. And the main part of writing are styles, pieces and tags.",,,,,,,,,
