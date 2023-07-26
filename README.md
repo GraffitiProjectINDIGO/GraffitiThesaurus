@@ -1,4 +1,4 @@
-# INDIGO thesaurus structure documentation
+# INDIGO's graffiti thesaurus - structure documentation
 The INDIGO graffiti thesaurus is a controlled vocabulary that organizes and classifies terms and concepts related to graffiti, street art, and human-made markings. The thesaurus is based on the SKOS data model and is built using the open-source software Skosmos. It is structured in a hierarchical fashion, with facets, hierarchy names, guide terms, and concepts used to organize and classify the vocabulary. The thesaurus is derived from the Getty AAT, but also includes concepts and labels specific to the graffiti and street art domain. The thesaurus also provides an easy way to link external concepts, like wikidata and Getty AAT, to the main concepts of the thesaurus. The thesaurus can be browsed and searched with a web-based interface, and can be accessed via a REST-API for linked data integration via the Vocabs service.
 
 
