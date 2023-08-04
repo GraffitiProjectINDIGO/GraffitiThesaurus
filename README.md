@@ -45,172 +45,261 @@ The [Vocabs](https://vocabs.dariah.eu/en/) , provided by the Austrian Centre for
 
 ## The INDIGO graffiti thesaurus
 
+### TSV Files
+TSV stands for Tab-Separated Values. It is a simple file format used to store data in a tabular structure, akin to a CSV (Comma-Separated Values) file. Each line in a TSV file represents a row in the table, and each field in the row is separated by a tab character. This format is widely utilised for its simplicity and compatibility with numerous data processing tools and applications. For instance, a TSV file can be effortlessly opened and edited in a spreadsheet programme such as Microsoft Excel or Google Sheets. It can also be processed using programming languages like Python or R, which provide built-in functions for reading and writing TSV files.
 
-### The CSV table structure
-**Unique identifier —** This is a unique identifier assigned to each concept in the thesaurus, which can be used to identify and reference the concept within the thesaurus.
+### JSON Files
+JSON stands for JavaScript Object Notation. It is a lightweight data-interchange format that is straightforward for humans to read and write and simple for machines to parse and generate. JSON is a text format that is entirely language-independent but utilises conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. In a JSON file, data is represented in a structured manner using two types of structures:
+1. A collection of key/value pairs. In various languages, this is realised as an object, record, struct, dictionary, hash table, keyed list, or associative array.
+2. An ordered list of values. In most languages, this is realised as an array, vector, list, or sequence.
+These are universal data structures that are supported in some form by nearly all modern programming languages. This makes JSON a highly useful format for data interchange between different programming languages. For instance, a JSON file can be easily processed using JavaScript, Python, or many other programming languages, which provide built-in functions for parsing JSON data and converting it into native data structures. It can also be used in web APIs to send and receive data between a client and a server.
 
-**Getty AAT type —** This refers to the type of term according to the Getty Art and Architecture Thesaurus (AAT). This can be used to classify and organize the concepts within the thesaurus. Here it is noted if the concept is or would be considered a facet, hierarchy name, guide term, concept or collection (SKOS) in the Getty AAT.
+### The structure
 
-**skos:prefLabel @en —** This is the preferred label for the concept in English. It is the main term that will be used to represent the concept within the thesaurus and in search results.
+The INDIGO graffiti thesaurus is structured as a set of concepts, each represented as an object in a JSON file. Each concept includes several data fields that provide information about the concept and its relationships with other concepts.
 
-**skos:broader —** This refers to the broader concept that the current concept falls under. It is used to establish a hierarchical structure within the thesaurus. The skos:narrower 
+In the thesaurus, the "Listing terms separator" is used to separate different labels of a concept or multiple external concepts linked to a concept. The separator used is "\$\$". For example, "antistyle \$\$ anti style (graffiti)". The same also works for multiple external concepts, for example, "http://vocab.getty.edu/page/aat/300015613 \$\$ http://vocab.getty.edu/page/aat/300410270".
 
-**rdf:type (skos:) —** This refers to the type of concept, according to the SKOS data model. It can be used to classify and organize the concepts within the thesaurus.
+In the following sections, we will describe each data field in detail using the example of the concept _"tags (graffiti)"_.
 
-**skos:member —** This refers to a member of a collection. It can be used to group related concepts together within the thesaurus.
+#### Unique identifier
 
-**skos:altLabel @en —** This is an alternative label for the concept in English. It can be used in search results and to provide synonyms for the concept.
+_**Example:** "tagsGraffiti"_
 
-**skos:editorialNote @en —** This is an editorial note in English that can be used to provide additional information or clarification about the concept.
+The "Unique identifier" is a string that serves as a unique reference to each concept in the thesaurus. It ensures that each concept can be referenced, retrieved, and manipulated individually, without confusion or error. The unique identifier is typically a combination of alphanumeric characters, and it may include capital letters for readability. In the context of the INDIGO project, the unique identifier is not only unique but also designed to be easily readable and interpretable. It is incorporated into the Uniform Resource Identifier (URI) for each concept, enabling users to easily locate and understand the concept based on its unique identifier. This approach enhances the usability and accessibility of the thesaurus, making it easier for users to navigate and interact with the data.
 
-**skos:note @en (getty) —** This is a note in English provided by Getty AAT about the concept.
+#### Type
 
-**skos:note @en —** This is a note in English provided by the creator of the thesaurus about the concept.
+_**Example:** "concept"_
 
-**external concept (getty) —** This refers to an external concept from Getty AAT that is related to the current concept within the thesaurus.
+The "Type" field specifies the type of entity being described. This classification is based on the standards set by the Art & Architecture Thesaurus (AAT) or the Simple Knowledge Organization System (SKOS). The type can be a facet, hierarchy name, guide term, concept, or collection, as defined by the AAT or SKOS. In the context of the INDIGO project, the "Type" field serves multiple purposes. Firstly, it helps to organise and classify the concepts within the thesaurus, providing a clear and consistent structure. This makes it easier for users to navigate the thesaurus and understand the relationships between different concepts.
 
-**type of match (getty) (skos:exactMatch, skos:closeMatch, skos:broadMatch, skos:narrowMatch, skos:relatedMatch)—** This refers to the type of match between the current concept in the thesaurus and the external concept from Getty AAT. The different types of match indicate the degree of similarity between the two concepts.
+Secondly, the "Type" field helps to track the origin and rationale behind each concept. By specifying whether a concept is a facet, hierarchy name, guide term, concept, or collection, the "Type" field provides insight into the thought process and decision-making that went into the creation of the thesaurus. This can be useful for users who want to understand the underlying principles and methodologies of the thesaurus. Lastly, by adhering to the standards set by the AAT and SKOS, the "Type" field ensures that the thesaurus is interoperable with other resources that use the same standards. This enhances the usability and versatility of the thesaurus, allowing it to be integrated with other systems and utilised in a variety of contexts.
 
-**external concept (wikidata) —** This refers to an external concept from Wikidata that is related to the current concept within the thesaurus.
+#### skos:prefLabel @en
 
-**type of match (wikidata) (skos:exactMatch, skos:closeMatch, skos:broadMatch, skos:narrowMatch, skos:relatedMatch) —** This refers to the type of match between the current concept in the thesaurus and the external concept from Wikidata. The different types of match indicate the degree of similarity between the two concepts.
+_**Example:** "tags (graffiti)"_
 
-**dct:source —** This refers to the source of the concept. It can be used to indicate where the information for the concept came from.
+The "skos:prefLabel @en" field provides the preferred label for the concept in English. This is the primary label that represents the concept within the thesaurus. It is used as the main identifier for the concept in search results and other interfaces where the concept is presented. The preferred label is carefully chosen to accurately and succinctly represent the essence of the concept, making it easier for users to understand and interact with the data.
 
-**skos:example @en —** This is an example of how the concept can be used in context, in English.
+#### skos:broader
 
-**skos:related —** This refers to related concepts within the thesaurus. It can be used to establish connections between different concepts within the thesaurus.
+_**Example:** "writingGraffiti"_
+
+The "skos:broader" field specifies the broader concept under which the current concept falls. This establishes a hierarchical relationship between concepts, allowing users to navigate from more specific to more general concepts.
+
+In the context of the INDIGO project, the "skos:broader" field is used to manually define the broader concept for each concept in the thesaurus. Once the broader concept is defined, the corresponding "skos:narrower" relationship is automatically generated. This approach ensures consistency and accuracy in the hierarchical structure of the thesaurus, preventing errors such as missing concepts or incorrectly specified relationships.
+
+#### rdf:type (skos:)
+
+_**Example:** "Concept"_
+
+The "rdf:type (skos:)" field specifies the type of the entity according to the Simple Knowledge Organization System (SKOS) data model. In the context of the INDIGO project, the type can be either a "Concept" or a "Collection".
+
+This classification helps to organise and classify the entities within the thesaurus, providing a clear and consistent structure. By specifying the type of each entity, users can easily understand the nature of the entity and its role within the thesaurus. This enhances the usability of the thesaurus and facilitates more effective navigation and interaction with the data.
+
+#### skos:member
+
+_**Example:** "graffitoType"_
+
+The "skos:member" field indicates whether the concept or collection being described is a member of a specific collection. This field is used to group related concepts within the thesaurus, enhancing the organisation and navigability of the data.
+
+In the context of the INDIGO project, the "skos:member" field is used to create logical groupings of related concepts. These groupings can help users explore the thesaurus more effectively, as they can easily find and examine sets of related concepts. This can be particularly useful for users who are interested in a specific theme or topic, as they can easily locate all the concepts related to that theme or topic.
+
+#### skos:altLabel @en
+
+_**Example:** "tag (graffiti) \$$ tag \$$ tags"_
+
+The "skos:altLabel @en" field provides alternative labels for the concept in English. These are additional terms that can be used to represent the concept, and they are often synonyms or variant spellings of the preferred label. Alternative labels are particularly useful in search operations. If a user searches for a term that is not the preferred label for a concept, but is listed as an alternative label, the search operation will still return the correct concept. This increases the likelihood that users will find the information they are looking for, even if they use different terminology.
+
+In the context of the INDIGO project, the "skos:altLabel @en" field is used to ensure that the thesaurus is accessible and user-friendly. By providing a range of terms for each concept, the thesaurus can accommodate a variety of user needs and preferences, making it a more versatile and useful tool.
+
+#### skos:editorialNote @en
+
+_**Example:** ""Tags (graffiti)" refers to a specific type of graffiti writing. A tag is essentially the signature or moniker of a graffitist, often stylised in a unique and distinctive way. It is the simplest and most fundamental form of graffiti, and it is typically the first type of graffiti that a graffitist learns to create. Tags are usually created quickly and can be found in a variety of locations throughout urban environments. They are often used by graffitists to mark territory, gain recognition, or participate in the broader graffiti community. While tags may appear simple or even crude to the untrained eye, they can be rich in meaning and style. The design of a tag can convey a great deal of information about the graffitist, including their skill level, their influences, and their place within the graffiti community."_
+
+The "skos:editorialNote @en" field provides an editorial note in English. In the current state of the INDIGO project, this field is used to explain what the concept means to the creators of the thesaurus. It provides an understanding of the concept as it is currently defined, serving as a guideline for users on how to interpret and use the concept.
+
+However, it's important to note that the use of the "skos:editorialNote @en" field in this way is a temporary solution. In future updates to the INDIGO project, the actual description of the concept will be provided in the "skos:definition @en" field. At that point, the "skos:editorialNote @en" field will likely be used for different purposes, such as providing additional context or clarification about the concept.
+
+#### skos:note @en (getty)
+
+_**Example:** ""Stylized forms of graffiti using names or initials as markers. These are considered the most basic form of graffiti art." (Art & Architecture Thesaurus Full Record Display (Getty Research). ‘Tags (Documents)’)"_
+
+The "skos:note @en (getty)" field provides a note in English about the concept, as provided by the Getty Art & Architecture Thesaurus (AAT). This note is directly quoted from the Getty AAT and is included in the INDIGO thesaurus to provide additional context and understanding about the concept.
+
+The note is enclosed in quotation marks to indicate that it is a direct quote, and a citation is included to credit the source of the information. The full bibliographic information for the citation is then included in the "dc:source @en" field. This approach ensures that the source of the information is properly credited and that users can refer to the original source if they wish to explore the concept in more detail.
+
+#### external concept (getty)
+
+_**Example:** "http://vocab.getty.edu/page/aat/300410284"_
+
+The "external concept (getty)" field provides a link to a related concept in the Getty Art & Architecture Thesaurus (AAT). This field is used to connect the concepts in the INDIGO thesaurus with related concepts in the Getty AAT, enhancing the richness and depth of the information provided.
+
+By linking to external concepts, the INDIGO thesaurus can provide users with a broader context for each concept and enable them to explore related ideas in more detail. This can be particularly useful for users who are interested in a specific theme or topic, as they can easily locate additional information and resources related to that theme or topic.
+
+#### type of match (getty) (skos:exactMatch, skos:closeMatch, skos:broadMatch, skos:narrowMatch, skos:relatedMatch)
+
+_**Example:** "exactMatch"_
+
+The "type of match (getty)" field specifies the type of match between the concept in the INDIGO thesaurus and an external concept from the Getty Art & Architecture Thesaurus (AAT). This field is used to indicate the degree of similarity or relatedness between the two concepts.
+
+The different types of matches are defined as follows:
+
+- skos:exactMatch: The concept in the INDIGO thesaurus is semantically equivalent to the external concept from the Getty AAT. They can be used interchangeably in the same context.
+- skos:closeMatch: The concept in the INDIGO thesaurus is very similar to the external concept from the Getty AAT, but they may not be used interchangeably in all contexts due to minor differences in meaning.
+- skos:broadMatch: The external concept from the Getty AAT is more general than the concept in the INDIGO thesaurus. The INDIGO concept is a type of the Getty concept.
+- skos:narrowMatch: The external concept from the Getty AAT is more specific than the concept in the INDIGO thesaurus. The Getty concept is a subtype of the INDIGO concept.
+- skos:relatedMatch: The concept in the INDIGO thesaurus is related to the external concept from the Getty AAT, but they are not equivalent or hierarchical. They share a semantic relationship.
+
+By specifying the type of match, the INDIGO thesaurus provides users with a clearer understanding of the relationship between the concepts in the thesaurus and the related concepts in the Getty AAT.
+
+#### external concept (wikidata)
+
+_**Example:** "https://www.wikidata.org/wiki/Q17514"_
+
+The "external concept (wikidata)" field provides a link to a related concept in Wikidata. This field is used to connect the concepts in the INDIGO thesaurus with related concepts in Wikidata, enhancing the richness and depth of the information provided.
+
+By linking to external concepts, the INDIGO thesaurus can provide users with a broader context for each concept and enable them to explore related ideas in more detail. This can be particularly useful for users who are interested in a specific theme or topic, as they can easily locate additional information and resources related to that theme or topic.
+
+#### type of match (wikidata) (skos:exactMatch, skos:closeMatch, skos:broadMatch, skos:narrowMatch, skos:relatedMatch)
+
+_**Example:** "relatedMatch"_
+
+The "type of match (wikidata)" field specifies the type of match between the concept in the INDIGO thesaurus and an external concept from Wikidata. This field is used to indicate the degree of similarity or relatedness between the two concepts.
+
+The different types of matches are defined as follows:
+
+- skos:exactMatch: The concept in the INDIGO thesaurus is semantically equivalent to the external concept from Wikidata. They can be used interchangeably in the same context.
+- skos:closeMatch: The concept in the INDIGO thesaurus is very similar to the external concept from Wikidata, but they may not be used interchangeably in all contexts due to minor differences in meaning.
+- skos:broadMatch: The external concept from Wikidata is more general than the concept in the INDIGO thesaurus. The INDIGO concept is a type of the Wikidata concept.
+- skos:narrowMatch: The external concept from Wikidata is more specific than the concept in the INDIGO thesaurus. The Wikidata concept is a subtype of the INDIGO concept.
+- skos:relatedMatch: The concept in the INDIGO thesaurus is related to the external concept from Wikidata, but they are not equivalent or hierarchical. They share a semantic relationship.
+
+By specifying the type of match, the INDIGO thesaurus provides users with a clearer understanding of the relationship between the concepts in the thesaurus and the related concepts in Wikidata.
+
+#### dct:source
+
+_**Example:** "Art & Architecture Thesaurus Full Record Display (Getty Research). ‘Tags (Documents)’, 25 January 2021. http://vocab.getty.edu/page/aat/300410284."_
+
+The "dct:source" field provides the source of the information for the concept in the INDIGO thesaurus. This field is used to credit the original source of the information and to provide a reference for users who wish to explore the concept in more detail.
+
+The source is typically a published work or a reputable online resource, and it is provided in a citation format that includes the title of the work, the author or organisation, the date of publication, and a URL or other identifier. This citation format allows users to easily locate and access the original source of the information.
+
+By providing the source of the information, the INDIGO thesaurus ensures that the original creators of the information are properly credited, and it provides a level of transparency and accountability for the information provided in the thesaurus.
+
+#### skos:example @en
+
+_**Example:** "A graffitist might use a tag to mark their territory or to gain recognition within the graffiti community."_
+
+The "skos:example @en" field provides an example of how the concept can be used in context, in English. This field is used to illustrate the practical application of the concept and to help users understand how it can be used in real-world situations.
+
+The example is typically a sentence or short paragraph that includes the concept and shows how it can be used in a sentence or a specific context. This can be particularly useful for users who are unfamiliar with the concept or who are learning about the topic for the first time. By providing an example of how the concept can be used, the INDIGO thesaurus helps to make the concepts more accessible and understandable to a wide range of users.
+
+#### skos:related
+
+_**Example:** "charactagGraffiti"_
+
+The "skos:related" field provides a reference to related concepts within the INDIGO thesaurus. This field is used to establish connections between different concepts, enhancing the richness and depth of the information provided.
+
+By linking to related concepts, the INDIGO thesaurus can provide users with a broader context for each concept and enable them to explore related ideas in more detail. This can be particularly useful for users who are interested in a specific theme or topic, as they can easily locate additional information and resources related to that theme or topic.
+
+#### AAT Facets in the INDIGO Graffiti Thesaurus
+
+The INDIGO graffiti thesaurus utilises facets from the AAT to organise its concepts. Here's how we handle facets:
+
+- Each facet's preferred label starts with a capital letter and ends with the tag "`<facet>`". For example, "`Activities <facet>`".
+- The unique identifier for each facet follows the PascalCase convention (each word starts with a capital letter) and ends with a capital "F" to denote its facet status. For example, "`ActivitiesF`".
+- The original notes from the AAT are retained for each facet to accurately describe the concept.
+- The thesaurus currently encompasses six facets derived from the AAT:  
+    - `Activities <facet>`
+    - `Agents <facet>`
+    - `Associated Concepts <facet>`
+    - `Objects <facet>`
+    - `Physical Attributes <facet>`
+    - `Styles and Periods <facet>`
 
 
-### The specific Getty AAT types
+#### AAT Hierarchy Names in the INDIGO Graffiti Thesaurus
+
+Hierarchy names in the INDIGO graffiti thesaurus serve to categorise concepts into broader groups. Here's how we handle hierarchy names:
+
+- Each hierarchy name's preferred label starts with a capital letter and ends with the tag "`<hierarchy name>`". For example, "`Associated Concepts <hierarchy name>`".
+- The unique identifier for each hierarchy name follows the PascalCase convention (each word starts with a capital letter), and ends with "HN" to denote its status as a hierarchy name. For example, "`AssociatedConceptsHN`".
+- No additional information is typically added to the hierarchy names, as the AAT does not provide further details.
+- The thesaurus currently encompasses several hierarchy names:  
+    - `Associated Concepts <hierarchy name>`
+    - `Built Environment <hierarchy name>`
+    - `Components <hierarchy name>`
+    - `Design Elements <hierarchy name>`
+    - `Information Forms <hierarchy name>`
+    - `Open Spaces and Site Elements <hierarchy name>`
+    - `People <hierarchy name>`
+    - `Physical and Mental Activities <hierarchy name>`
+    - `Processes and Techniques <hierarchy name>`
+    - `Styles and Periods <hierarchy name>`
+    - `Visual and Verbal Communication <hierarchy name>`
 
 
-#### Facet
-The INDIGO graffiti thesaurus uses facets to organize and classify concepts within the controlled vocabulary. A facet is a category or theme within the thesaurus that allows for grouping related concepts together.
+#### AAT Guide Terms in the INDIGO Graffiti Thesaurus
 
-The structure of the facets in the INDIGO graffiti thesaurus is as follows:
-* The preferred label for each facet starts with a capital letter and ends with the tag "<facet>". For example, "Activities <facet>".
-* In the unique identifier, each facet starts with a capital letter and every added word also starts with a capital letter. The identifier ends with a big “F” indicating that it is a facet. For example, "ActivitiesF"
-* Generally, no further information is added to the facets, as the Getty AAT also does not provide any additional information.
+Guide terms in the INDIGO graffiti thesaurus are utilised to organise and classify concepts. These specific terms or phrases guide users to related concepts. Here's how we handle guide terms:
 
-Currently, there are 6 facets in the INDIGO thesaurus, all of which are from the Getty AAT. These facets are:
-    Activities <facet>
-    Agents <facet>
-    Associated Concepts <facet>
-    Objects <facet>
-    Physical Attributes <facet>
-    Styles and Periods <facet>
-
-The structure of the facets in the INDIGO graffiti thesaurus is designed to make it easy to identify and classify the concepts within the thesaurus, and to make it easy to browse and search for specific information within the vocabulary. The use of a unique identifier also allows for easy reference and linking to the concepts within the thesaurus.
-
-
-#### Hierarchy Name
-In the INDIGO graffiti thesaurus, hierarchy names are used to organize and classify concepts within the controlled vocabulary by grouping them under broader categories.
-
-The structure of the hierarchy names in the INDIGO graffiti thesaurus is as follows:
-* The preferred label for each hierarchy name starts with a capital letter and ends with the tag "<hierarchy name>". For example, "Associated Concepts <hierarchy name>".
-* In the unique identifier, each hierarchy name starts with a capital letter and every added word also starts with a capital letter. The identifier ends with a big “HN” indicating that it is a hierarchy name. For example, "AssociatedConceptsHN"
-* Generally, no further information is added to the hierarchy names, as the Getty AAT also does not provide any additional information.
-
-Currently, there are several hierarchy names in the INDIGO thesaurus, these are:
-    Associated Concepts <hierarchy name>
-    Built Environment <hierarchy name>
-    Components <hierarchy name>
-    Design Elements <hierarchy name>
-    Information Forms <hierarchy name>
-    Open Spaces and Site Elements <hierarchy name>
-    People <hierarchy name>
-    Physical and Mental Activities <hierarchy name>
-    Processes and Techniques <hierarchy name>
-    Styles and Periods <hierarchy name>
-    Visual and Verbal Communication <hierarchy name>
-
-Hierarchy names in the INDIGO graffiti thesaurus are used to organize and classify the concepts by grouping them under broader categories, making it easier to browse and search for specific information within the vocabulary. The use of a unique identifier also allows for easy reference and linking to the concepts within the thesaurus.
+- Each guide term's preferred label is written in lowercase and ends with the tag "`<guide term>`". For example, "`public and interactive activities <guide term>`".
+- The unique identifier for each guide term follows the camelCase convention (first word starts with a lowercase letter, subsequent words start with a capital letter), and ends with "GT" to denote its status as a guide term. For example, "`publicAndInteractiveActivitiesGT`".
+- No additional information is typically added to the guide terms, as the AAT does not provide further details.
+- The thesaurus currently encompasses 21 AAT guide terms, including:  
+    - `additive and joining processes and techniques <guide term>`
+    - `attributes and properties by specific type <guide term>`
+    - `components by specific context <guide term>`
+    - `concepts in the arts and humanities <guide term>`
+    - `documents by function <guide term>`
+    - `open spaces by location or context <guide term>`
+    - `people by occupation <guide term>`
+    - `people by state or condition <guide term>`
+    - `people in the arts and related occupations <guide term>`
+    - `people in the humanities <guide term>`
+    - `physical activities by specific context <guide term>`
+    - `processes and techniques by specific type <guide term>`
+    - `public and interactive activities <guide term>`
+    - `script and type forms <guide term>`
+    - `styles, periods, and cultures by general era <guide term>`
+    - `subtractive processes and techniques <guide term>`
+    - `surface covering processes and techniques <guide term>`
+    - `technology and related concepts <guide term>`
+    - `visual works by function <guide term>`
+    - `visual works by location or context <guide term>`
 
 
-#### Guide Term
-In the INDIGO graffiti thesaurus, guide terms are used to organize and classify concepts within the controlled vocabulary by providing a specific term or phrase that guides the user to related concepts.
+#### SKOS:Concepts in the INDIGO graffiti thesaurus
 
-The structure of the guide terms in the INDIGO graffiti thesaurus is as follows:
-* The preferred label for each guide term is written in small letters and ends with the tag "<guide term>". For example, "public and interactive activities <guide term>".
-* In the unique identifier, each guide term uses the camel case and ends with a “GT” indicating that it is a guide term. For example, "publicAndInteractiveActivitiesGT"
-* Generally, no further information is added to the guide terms, as the Getty AAT also does not provide any additional information.
+Concepts are the fundamental elements of the INDIGO graffiti thesaurus. Here's how we handle concepts:
 
-Currently, there are 21 guide terms in the INDIGO thesaurus, that are derived from the Getty AAT, such as:
-    accidential surface covering processes <guide term>
-    additive and joining processes and techniques <guide term>
-    attributes and properties by specific type <guide term>
-    components by specific context <guide term>
-    concepts in the arts and humanities <guide term>
-    documents by function <guide term>
-    open spaces by location or context <guide term>
-    people by occupation <guide term>
-    people by state or condition <guide term>
-    people in the arts and related occupations <guide term>
-    people in the humanities <guide term>
-    physical activities by specific context <guide term>
-    processes and techniques by specific type <guide term>
-    public and interactive activities <guide term>
-    script and type forms <guide term>
-    styles, periods, and cultures by general era <guide term>
-    subtractive processes and techniques <guide term>
-    surface covering processes and techniques <guide term>
-    technology and related concepts <guide term>
-    visual works by function <guide term>
-    visual works by location or context <guide term>
-
-Guide terms in the INDIGO graffiti thesaurus are used to organize and classify the concepts by providing a specific term or phrase that guides the user to related concepts, making it easier to browse and search for specific information within the vocabulary. The use of a unique identifier also allows for easy reference and linking to the concepts within the thesaurus.
+- Each concept's preferred label is written in lowercase and in plural form, unless it's a proper noun (like "Wildstyle") or an activity (like "tagging (graffiti)"), where the activity is used and no plural form is needed.
+- Alternative labels are also provided for each concept, written in lowercase and separated by commas. For example, for the concept "black books (graffiti)", the alternative labels are "black book (graffiti)", "black, book", "black, books", "blackbook", "blackbooks".
+- A colon is used only when the concept consists of two words, such as “black, books”.
+- The thesaurus currently encompasses around 140 concepts, ranging from "@-Sign" to "writing (graffiti)".
 
 
-#### Concept
-In the INDIGO graffiti thesaurus, concepts are the core elements of the controlled vocabulary, representing the specific terms or phrases used to describe a particular idea or subject.
+#### SKOS:Collections in the INDIGO graffiti thesaurus
 
-The structure of concepts in the INDIGO graffiti thesaurus is as follows:
-* The preferred label for each concept is written in plural form and small letters, unless it is a proper name (like "writing"), a style (like "Wildstyle"), or an activity (like "tagging (graffiti)").
-* Alternative labels are also included in the concepts, they are written in small letters and separated by a comma. For example, "black books (graffiti)" is the preferred label and "black book (graffiti)", "black, book", "black, books", "blackbook", "blackbooks" are alternative labels.
-* So, the colon is only in use if the concept consists of two words
-* There are currently 150 concepts in the INDIGO thesaurus, from "@-Sign" to "writing (graffiti)".
+SKOS collections are utilised in the INDIGO graffiti thesaurus to group related concepts. Here's how INDIGO structures collections:
 
-Concepts in the INDIGO graffiti thesaurus are the core elements of the controlled vocabulary, representing the specific terms or phrases used to describe a particular idea or subject within the graffiti, street art and human-made markings theme. Alternative labels are also included in the concepts, making it easier to find and link related concepts within the thesaurus. The use of a unique identifier also allows for easy reference and linking to the concepts within the thesaurus.
+- Each collection's preferred label is written in lowercase. For example, the label for the collection of activities is "activity".
+- The unique identifier for each collection is also written in lowercase. For example, the identifier for the collection of activities is "activity".
+- The INDIGO graffiti thesaurus currently includes eleven collections: 
+    - activity
+    - community term
+    - component part
+    - concept idea
+    - design
+    - graffito class
+    - graffito component
+    - graffito creator
+    - graffito type
+    - sign and element 
+    - style
 
-
-### The Skosmos types
-
-
-#### Collection
-In Skosmos, collections are a way to group concepts within a controlled vocabulary. A collection is a set of concepts that share a common theme or purpose.
-
-In the INDIGO graffiti thesaurus, collections are structured as follows:
-* The preferred label for each collection is written in small letters. For example, "activity".
-* In the unique identifier, each collection is written in small letters as well. For example, "activity"
-
-Currently, there are 11 collections in the INDIGO thesaurus, these are:
-    activity
-    community term
-    component part
-    concept idea
-    design
-    graffito class
-    graffito component
-    graffito creator
-    graffito type
-    sign and element
-    style
-
-Collections in Skosmos allow for grouping related concepts within a controlled vocabulary, making it easier to browse and search for specific information within the vocabulary. It also allows for easy reference and linking to the concepts within the thesaurus.
-
-
-### Other things to note
-
-
-#### Listing terms divider
-The "Listing terms divider" is used to separate the different labels of a concept. The divider used is “ $$ ”. For example, “antistyle $$ anti style (graffiti)".
-
-
-#### Multiple external concepts
-Multiple external concepts can also be linked to a concept, these are divided by “ $$ “. For example, “http://vocab.getty.edu/page/aat/300015613 $$ http://vocab.getty.edu/page/aat/300410270”.
-
-Currently, only one external concept linked to a concept is created so far. If more then this one external concept will be useful for the future, then the structure should be changed generally from two rows to one row with this structure: “ external concept (match type)”.
 
 
 ## References
