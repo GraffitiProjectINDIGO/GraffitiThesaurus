@@ -1,7 +1,7 @@
 [
     {
       "Unique identifier": "3dGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "3D (graffiti)",
       "skos:broader": "letterformComponents",
       "rdf:type (skos:)": "Concept",
@@ -23,7 +23,7 @@
     },
     {
       "Unique identifier": "abstractStyleGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "abstract style (graffiti)",
       "skos:broader": "stylesStreetArt",
       "rdf:type (skos:)": "Concept",
@@ -45,7 +45,7 @@
     },
     {
       "Unique identifier": "accidentalSurfaceCoveringProcessesGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "accidental surface covering processes <guide term>",
       "skos:broader": "additiveAndJoiningProcessesAndTechniquesGT",
       "rdf:type (skos:)": "Concept",
@@ -67,7 +67,7 @@
     },
     {
       "Unique identifier": "ActivitiesF",
-      "Getty AAT type": "facet",
+      "Type": "facet",
       "skos:prefLabel @en": "Activities <facet>",
       "skos:broader": "",
       "rdf:type (skos:)": "Concept",
@@ -89,7 +89,7 @@
     },
     {
       "Unique identifier": "activity",
-      "Getty AAT type": "collection",
+      "Type": "collection",
       "skos:prefLabel @en": "activity",
       "skos:broader": "",
       "rdf:type (skos:)": "Collection",
@@ -111,7 +111,7 @@
     },
     {
       "Unique identifier": "additiveAndJoiningProcessesAndTechniquesGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "additive and joining processes and techniques <guide term>",
       "skos:broader": "processesAndTechniquesBySpecificTypeGT",
       "rdf:type (skos:)": "Concept",
@@ -133,7 +133,7 @@
     },
     {
       "Unique identifier": "AgentsF",
-      "Getty AAT type": "facet",
+      "Type": "facet",
       "skos:prefLabel @en": "Agents <facet>",
       "skos:broader": "",
       "rdf:type (skos:)": "Concept",
@@ -155,7 +155,7 @@
     },
     {
       "Unique identifier": "anarchySymbols",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "anarchy symbols",
       "skos:broader": "motifs",
       "rdf:type (skos:)": "Concept",
@@ -177,7 +177,7 @@
     },
     {
       "Unique identifier": "antiStyleGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "anti style (graffiti)",
       "skos:broader": "stylesStreetArt",
       "rdf:type (skos:)": "Concept",
@@ -199,7 +199,7 @@
     },
     {
       "Unique identifier": "arrowsLetterAttribute",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "arrows (letter attribute)",
       "skos:broader": "letterformComponents",
       "rdf:type (skos:)": "Concept",
@@ -221,7 +221,7 @@
     },
     {
       "Unique identifier": "arrowsMotif",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "arrows (motif)",
       "skos:broader": "motifs",
       "rdf:type (skos:)": "Concept",
@@ -243,7 +243,7 @@
     },
     {
       "Unique identifier": "AssociatedConceptsF",
-      "Getty AAT type": "facet",
+      "Type": "facet",
       "skos:prefLabel @en": "Associated Concepts <facet>",
       "skos:broader": "",
       "rdf:type (skos:)": "Concept",
@@ -265,7 +265,7 @@
     },
     {
       "Unique identifier": "AssociatedConceptsHN",
-      "Getty AAT type": "hierarchy name",
+      "Type": "hierarchy name",
       "skos:prefLabel @en": "Associated Concepts <hierarchy name>",
       "skos:broader": "AssociatedConceptsF",
       "rdf:type (skos:)": "Concept",
@@ -287,7 +287,7 @@
     },
     {
       "Unique identifier": "atSignsMotif",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "@ signs (motif)",
       "skos:broader": "motifs",
       "rdf:type (skos:)": "Concept",
@@ -309,7 +309,7 @@
     },
     {
       "Unique identifier": "attributesAndPropertiesBySpecificTypeGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "attributes and properties by specific type <guide term> ",
       "skos:broader": "AssociatedConceptsHN",
       "rdf:type (skos:)": "Concept",
@@ -331,7 +331,7 @@
     },
     {
       "Unique identifier": "backgroundsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "backgrounds (graffiti)",
       "skos:broader": "graffitiConcepts",
       "rdf:type (skos:)": "Concept",
@@ -353,7 +353,7 @@
     },
     {
       "Unique identifier": "battlesGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "battles (graffiti)",
       "skos:broader": "publicAndInteractiveActivitiesGT",
       "rdf:type (skos:)": "Concept",
@@ -375,7 +375,7 @@
     },
     {
       "Unique identifier": "bitingsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "bitings (graffiti)",
       "skos:broader": "publicAndInteractiveActivitiesGT",
       "rdf:type (skos:)": "Concept",
@@ -397,7 +397,7 @@
     },
     {
       "Unique identifier": "blackBooksGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "black books (graffiti)",
       "skos:broader": "sketchbooks",
       "rdf:type (skos:)": "Concept",
@@ -419,7 +419,7 @@
     },
     {
       "Unique identifier": "blockbusterStyleGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "blockbuster style (graffiti)",
       "skos:broader": "stylesWriting",
       "rdf:type (skos:)": "Concept",
@@ -441,7 +441,7 @@
     },
     {
       "Unique identifier": "blocksGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "blocks (graffiti)",
       "skos:broader": "letterformComponents",
       "rdf:type (skos:)": "Concept",
@@ -463,7 +463,7 @@
     },
     {
       "Unique identifier": "bombingGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "bombing (graffiti)",
       "skos:broader": "publicAndInteractiveActivitiesGT",
       "rdf:type (skos:)": "Concept",
@@ -485,7 +485,7 @@
     },
     {
       "Unique identifier": "bubblesMotif",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "bubbles (motif)",
       "skos:broader": "motifs",
       "rdf:type (skos:)": "Concept",
@@ -507,7 +507,7 @@
     },
     {
       "Unique identifier": "bubbleStyleGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "bubble style (graffiti)",
       "skos:broader": "stylesWriting",
       "rdf:type (skos:)": "Concept",
@@ -529,7 +529,7 @@
     },
     {
       "Unique identifier": "buffingsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "buffings (graffiti)",
       "skos:broader": "publicAndInteractiveActivitiesGT",
       "rdf:type (skos:)": "Concept",
@@ -551,7 +551,7 @@
     },
     {
       "Unique identifier": "BuiltEnvironmentHN",
-      "Getty AAT type": "hierarchy name",
+      "Type": "hierarchy name",
       "skos:prefLabel @en": "Built Environment <hierarchy name>",
       "skos:broader": "ObjectsF",
       "rdf:type (skos:)": "Concept",
@@ -573,7 +573,7 @@
     },
     {
       "Unique identifier": "burnersGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "burners (graffiti)",
       "skos:broader": "graffitiConcepts",
       "rdf:type (skos:)": "Concept",
@@ -595,7 +595,7 @@
     },
     {
       "Unique identifier": "calligraffitiStyle",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "calligraffiti (style)",
       "skos:broader": "stylesGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -617,7 +617,7 @@
     },
     {
       "Unique identifier": "charactagGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "charactags (graffiti)",
       "skos:broader": "charactersWriting",
       "rdf:type (skos:)": "Concept",
@@ -639,7 +639,7 @@
     },
     {
       "Unique identifier": "charactersStreetArt",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "characters (street art)",
       "skos:broader": "figureWorks",
       "rdf:type (skos:)": "Concept",
@@ -661,7 +661,7 @@
     },
     {
       "Unique identifier": "charactersWriting",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "characters (writing)",
       "skos:broader": "figuresRepresentations",
       "rdf:type (skos:)": "Concept",
@@ -683,7 +683,7 @@
     },
     {
       "Unique identifier": "cloudsMotifs",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "clouds (motifs)",
       "skos:broader": "motifs",
       "rdf:type (skos:)": "Concept",
@@ -705,7 +705,7 @@
     },
     {
       "Unique identifier": "commissionedWorksGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "commissioned works (graffiti)",
       "skos:broader": "graffitiConcepts",
       "rdf:type (skos:)": "Concept",
@@ -727,7 +727,7 @@
     },
     {
       "Unique identifier": "communityTerm",
-      "Getty AAT type": "collection",
+      "Type": "collection",
       "skos:prefLabel @en": "community term",
       "skos:broader": "",
       "rdf:type (skos:)": "Collection",
@@ -749,7 +749,7 @@
     },
     {
       "Unique identifier": "componentPart",
-      "Getty AAT type": "collection",
+      "Type": "collection",
       "skos:prefLabel @en": "component part",
       "skos:broader": "",
       "rdf:type (skos:)": "Collection",
@@ -771,7 +771,7 @@
     },
     {
       "Unique identifier": "componentsBySpecificContextGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "components by specific context <guide term>",
       "skos:broader": "componentsObjectsParts",
       "rdf:type (skos:)": "Concept",
@@ -793,7 +793,7 @@
     },
     {
       "Unique identifier": "ComponentsHN",
-      "Getty AAT type": "hierarchy name",
+      "Type": "hierarchy name",
       "skos:prefLabel @en": "Components <hierarchy name>",
       "skos:broader": "ObjectsF",
       "rdf:type (skos:)": "Concept",
@@ -815,7 +815,7 @@
     },
     {
       "Unique identifier": "componentsObjectsParts",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "components (objects parts)",
       "skos:broader": "ComponentsHN",
       "rdf:type (skos:)": "Concept",
@@ -837,7 +837,7 @@
     },
     {
       "Unique identifier": "computerNetworkingConcepts",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "computer networking concepts",
       "skos:broader": "informationTechnology",
       "rdf:type (skos:)": "Concept",
@@ -859,7 +859,7 @@
     },
     {
       "Unique identifier": "conceptIdea",
-      "Getty AAT type": "collection",
+      "Type": "collection",
       "skos:prefLabel @en": "concept idea",
       "skos:broader": "",
       "rdf:type (skos:)": "Collection",
@@ -881,7 +881,7 @@
     },
     {
       "Unique identifier": "conceptsInTheArtsAndHumanitiesGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "concepts in the arts and humanities <guide term>",
       "skos:broader": "AssociatedConceptsHN",
       "rdf:type (skos:)": "Concept",
@@ -903,7 +903,7 @@
     },
     {
       "Unique identifier": "conceptWallsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "concept walls (graffiti)",
       "skos:broader": "graffitiConcepts",
       "rdf:type (skos:)": "Concept",
@@ -925,7 +925,7 @@
     },
     {
       "Unique identifier": "connectionsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "connections (graffiti)",
       "skos:broader": "outlinesGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -947,7 +947,7 @@
     },
     {
       "Unique identifier": "cracksMotif",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "cracks (motif)",
       "skos:broader": "motifs",
       "rdf:type (skos:)": "Concept",
@@ -969,7 +969,7 @@
     },
     {
       "Unique identifier": "crewsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "crews (graffiti)",
       "skos:broader": "groupsOfPeople",
       "rdf:type (skos:)": "Concept",
@@ -991,7 +991,7 @@
     },
     {
       "Unique identifier": "crossingOutGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "crossing out (graffiti)",
       "skos:broader": "publicAndInteractiveActivitiesGT",
       "rdf:type (skos:)": "Concept",
@@ -1013,7 +1013,7 @@
     },
     {
       "Unique identifier": "crownsMotifs",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "crowns (motif)",
       "skos:broader": "motifs",
       "rdf:type (skos:)": "Concept",
@@ -1035,7 +1035,7 @@
     },
     {
       "Unique identifier": "cutOutsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "cut outs (graffiti)",
       "skos:broader": "pasteUpsGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -1057,7 +1057,7 @@
     },
     {
       "Unique identifier": "dedicationsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "dedications (graffiti)",
       "skos:broader": "graffitiConcepts",
       "rdf:type (skos:)": "Concept",
@@ -1079,7 +1079,7 @@
     },
     {
       "Unique identifier": "design",
-      "Getty AAT type": "collection",
+      "Type": "collection",
       "skos:prefLabel @en": "design",
       "skos:broader": "",
       "rdf:type (skos:)": "Collection",
@@ -1101,7 +1101,7 @@
     },
     {
       "Unique identifier": "designElementsAttributes",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "design elements (attributes)",
       "skos:broader": "DesignElementsHN",
       "rdf:type (skos:)": "Concept",
@@ -1123,7 +1123,7 @@
     },
     {
       "Unique identifier": "DesignElementsHN",
-      "Getty AAT type": "hierarchy name",
+      "Type": "hierarchy name",
       "skos:prefLabel @en": "Design Elements <hierarchy name>",
       "skos:broader": "PhysicalAttributesF",
       "rdf:type (skos:)": "Concept",
@@ -1145,7 +1145,7 @@
     },
     {
       "Unique identifier": "documentGenres",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "document genres",
       "skos:broader": "informationFormsObjects",
       "rdf:type (skos:)": "Concept",
@@ -1167,7 +1167,7 @@
     },
     {
       "Unique identifier": "documentsByFunctionGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "documents by function <guide term> ",
       "skos:broader": "documentGenres",
       "rdf:type (skos:)": "Concept",
@@ -1189,7 +1189,7 @@
     },
     {
       "Unique identifier": "drippingTechnique",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "dripping (technique)",
       "skos:broader": "surfaceCoveringProcessesAndTechniquesGT",
       "rdf:type (skos:)": "Concept",
@@ -1211,7 +1211,7 @@
     },
     {
       "Unique identifier": "dripsBeginnersMark",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "drips (beginners' mark)",
       "skos:broader": "accidentalSurfaceCoveringProcessesGT",
       "rdf:type (skos:)": "Concept",
@@ -1233,7 +1233,7 @@
     },
     {
       "Unique identifier": "dripsMotif",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "drips (motif)",
       "skos:broader": "motifs",
       "rdf:type (skos:)": "Concept",
@@ -1255,7 +1255,7 @@
     },
     {
       "Unique identifier": "etchingsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "etchings (graffiti)",
       "skos:broader": "writingGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -1277,7 +1277,7 @@
     },
     {
       "Unique identifier": "etchingTechnique",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "etching (technique)",
       "skos:broader": "subtractiveProcessesAndTechniquesGT",
       "rdf:type (skos:)": "Concept",
@@ -1299,7 +1299,7 @@
     },
     {
       "Unique identifier": "fadingsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "fadings (graffiti)",
       "skos:broader": "graffitiConcepts",
       "rdf:type (skos:)": "Concept",
@@ -1321,7 +1321,7 @@
     },
     {
       "Unique identifier": "fame",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "fame",
       "skos:broader": "sociologicalConcepts",
       "rdf:type (skos:)": "Concept",
@@ -1343,7 +1343,7 @@
     },
     {
       "Unique identifier": "figuresRepresentations",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "figures (representations)",
       "skos:broader": "visualWorksByFunctionGT",
       "rdf:type (skos:)": "Concept",
@@ -1365,7 +1365,7 @@
     },
     {
       "Unique identifier": "figureWorks",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "figure works",
       "skos:broader": "visualWorksByFunctionGT",
       "rdf:type (skos:)": "Concept",
@@ -1387,7 +1387,7 @@
     },
     {
       "Unique identifier": "fillInsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "fill ins (graffiti)",
       "skos:broader": "graffitiConcepts",
       "rdf:type (skos:)": "Concept",
@@ -1409,7 +1409,7 @@
     },
     {
       "Unique identifier": "firstLiniesGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "first lines (graffiti)",
       "skos:broader": "outlinesGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -1431,7 +1431,7 @@
     },
     {
       "Unique identifier": "firstRowsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "first rows (graffiti)",
       "skos:broader": "openSpacesByLocationOrContextGT",
       "rdf:type (skos:)": "Concept",
@@ -1453,7 +1453,7 @@
     },
     {
       "Unique identifier": "formAttributes",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "form attributes",
       "skos:broader": "attributesAndPropertiesBySpecificTypeGT",
       "rdf:type (skos:)": "Concept",
@@ -1475,7 +1475,7 @@
     },
     {
       "Unique identifier": "genderSignsMotifs",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "gender signs (motif)",
       "skos:broader": "motifs",
       "rdf:type (skos:)": "Concept",
@@ -1497,7 +1497,7 @@
     },
     {
       "Unique identifier": "geometricStyleGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "geometric style (graffiti)",
       "skos:broader": "stylesWriting",
       "rdf:type (skos:)": "Concept",
@@ -1519,7 +1519,7 @@
     },
     {
       "Unique identifier": "gettingUpGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "getting up (graffiti)",
       "skos:broader": "fame",
       "rdf:type (skos:)": "Concept",
@@ -1541,7 +1541,7 @@
     },
     {
       "Unique identifier": "glories",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "glories",
       "skos:broader": "motifs",
       "rdf:type (skos:)": "Concept",
@@ -1563,7 +1563,7 @@
     },
     {
       "Unique identifier": "graffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "graffiti",
       "skos:broader": "visualWorksByLocationOrContextGT",
       "rdf:type (skos:)": "Concept",
@@ -1585,7 +1585,7 @@
     },
     {
       "Unique identifier": "graffitiConcepts",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "graffiti concepts",
       "skos:broader": "conceptsInTheArtsAndHumanitiesGT",
       "rdf:type (skos:)": "Concept",
@@ -1607,7 +1607,7 @@
     },
     {
       "Unique identifier": "graffitists",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "graffitists",
       "skos:broader": "peopleInTheArtsAndRelatedOccupationsGT",
       "rdf:type (skos:)": "Concept",
@@ -1629,7 +1629,7 @@
     },
     {
       "Unique identifier": "graffitoClass",
-      "Getty AAT type": "collection",
+      "Type": "collection",
       "skos:prefLabel @en": "graffito class",
       "skos:broader": "",
       "rdf:type (skos:)": "Collection",
@@ -1651,7 +1651,7 @@
     },
     {
       "Unique identifier": "graffitoComponent",
-      "Getty AAT type": "collection",
+      "Type": "collection",
       "skos:prefLabel @en": "graffito component",
       "skos:broader": "",
       "rdf:type (skos:)": "Collection",
@@ -1673,7 +1673,7 @@
     },
     {
       "Unique identifier": "graffitoCreator",
-      "Getty AAT type": "collection",
+      "Type": "collection",
       "skos:prefLabel @en": "graffito creator",
       "skos:broader": "",
       "rdf:type (skos:)": "Collection",
@@ -1695,7 +1695,7 @@
     },
     {
       "Unique identifier": "graffitoType",
-      "Getty AAT type": "collection",
+      "Type": "collection",
       "skos:prefLabel @en": "graffito type",
       "skos:broader": "",
       "rdf:type (skos:)": "Collection",
@@ -1717,7 +1717,7 @@
     },
     {
       "Unique identifier": "greetingsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "greetings (graffiti)",
       "skos:broader": "graffitiConcepts",
       "rdf:type (skos:)": "Concept",
@@ -1739,7 +1739,7 @@
     },
     {
       "Unique identifier": "groupsOfPeople",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "groups of people",
       "skos:broader": "peopleAgents",
       "rdf:type (skos:)": "Concept",
@@ -1761,7 +1761,7 @@
     },
     {
       "Unique identifier": "hallsOfFameGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "halls of fame (graffiti)",
       "skos:broader": "openSpacesByLocationOrContextGT",
       "rdf:type (skos:)": "Concept",
@@ -1783,7 +1783,7 @@
     },
     {
       "Unique identifier": "halosGlories",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "halos (glories)",
       "skos:broader": "glories",
       "rdf:type (skos:)": "Concept",
@@ -1805,7 +1805,7 @@
     },
     {
       "Unique identifier": "halosGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "halos (graffiti)",
       "skos:broader": "halosGlories",
       "rdf:type (skos:)": "Concept",
@@ -1827,7 +1827,7 @@
     },
     {
       "Unique identifier": "handstylesGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "handstyles (graffiti)",
       "skos:broader": "graffitiConcepts",
       "rdf:type (skos:)": "Concept",
@@ -1849,7 +1849,7 @@
     },
     {
       "Unique identifier": "heartsMotifs",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "hearts (motif)",
       "skos:broader": "motifs",
       "rdf:type (skos:)": "Concept",
@@ -1871,7 +1871,7 @@
     },
     {
       "Unique identifier": "helloMyNameIsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "Hello My Name Is (graffiti)",
       "skos:broader": "stylesSticker",
       "rdf:type (skos:)": "Concept",
@@ -1893,7 +1893,7 @@
     },
     {
       "Unique identifier": "highlightsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "highlights (graffiti)",
       "skos:broader": "outlinesGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -1915,7 +1915,7 @@
     },
     {
       "Unique identifier": "informationFormComponents",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "information form components",
       "skos:broader": "componentsBySpecificContextGT",
       "rdf:type (skos:)": "Concept",
@@ -1937,7 +1937,7 @@
     },
     {
       "Unique identifier": "InformationFormsHN",
-      "Getty AAT type": "hierarchy name",
+      "Type": "hierarchy name",
       "skos:prefLabel @en": "Information Forms <hierarchy name>",
       "skos:broader": "VisualAndVerbalCommunicationHN",
       "rdf:type (skos:)": "Concept",
@@ -1959,7 +1959,7 @@
     },
     {
       "Unique identifier": "informationFormsObjects",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "information forms (objects)",
       "skos:broader": "InformationFormsHN",
       "rdf:type (skos:)": "Concept",
@@ -1981,7 +1981,7 @@
     },
     {
       "Unique identifier": "informationTechnology",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "information technology",
       "skos:broader": "technologyGeneralAssociatedConcept",
       "rdf:type (skos:)": "Concept",
@@ -2003,7 +2003,7 @@
     },
     {
       "Unique identifier": "inlinesGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "inlines (graffiti)",
       "skos:broader": "outlinesGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -2025,7 +2025,7 @@
     },
     {
       "Unique identifier": "kingsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "kings (graffiti)",
       "skos:broader": "peopleByStateOrConditionGT",
       "rdf:type (skos:)": "Concept",
@@ -2047,7 +2047,7 @@
     },
     {
       "Unique identifier": "letterformComponents",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "letterform components",
       "skos:broader": "letterforms",
       "rdf:type (skos:)": "Concept",
@@ -2069,7 +2069,7 @@
     },
     {
       "Unique identifier": "letterforms",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "letterforms",
       "skos:broader": "lettersSigns",
       "rdf:type (skos:)": "Concept",
@@ -2091,7 +2091,7 @@
     },
     {
       "Unique identifier": "letterShadowsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "letter shadows (graffiti)",
       "skos:broader": "outlinesGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -2113,7 +2113,7 @@
     },
     {
       "Unique identifier": "lettersSigns",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "letters (signs)",
       "skos:broader": "phoneticSigns",
       "rdf:type (skos:)": "Concept",
@@ -2135,7 +2135,7 @@
     },
     {
       "Unique identifier": "mechanicalStyleGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "mechanical style (graffiti)",
       "skos:broader": "stylesWriting",
       "rdf:type (skos:)": "Concept",
@@ -2157,7 +2157,7 @@
     },
     {
       "Unique identifier": "memorialsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "memorials (graffiti)",
       "skos:broader": "graffitiConcepts",
       "rdf:type (skos:)": "Concept",
@@ -2179,7 +2179,7 @@
     },
     {
       "Unique identifier": "messagesGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "messages (graffiti)",
       "skos:broader": "graffitiConcepts",
       "rdf:type (skos:)": "Concept",
@@ -2201,7 +2201,7 @@
     },
     {
       "Unique identifier": "minimalismGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "minimalism (graffiti)",
       "skos:broader": "stylesStreetArt",
       "rdf:type (skos:)": "Concept",
@@ -2223,7 +2223,7 @@
     },
     {
       "Unique identifier": "mirroredGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "mirrored (graffiti)",
       "skos:broader": "graffitiConcepts",
       "rdf:type (skos:)": "Concept",
@@ -2245,7 +2245,7 @@
     },
     {
       "Unique identifier": "mosaicsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "mosaics (graffiti)",
       "skos:broader": "streetArtGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -2267,7 +2267,7 @@
     },
     {
       "Unique identifier": "mosaicTechnique",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "mosaic (technique)",
       "skos:broader": "surfaceCoveringProcessesAndTechniquesGT",
       "rdf:type (skos:)": "Concept",
@@ -2289,7 +2289,7 @@
     },
     {
       "Unique identifier": "motifs",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "motifs",
       "skos:broader": "designElementsAttributes",
       "rdf:type (skos:)": "Concept",
@@ -2311,7 +2311,7 @@
     },
     {
       "Unique identifier": "muralsStreetArt",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "murals (street art)",
       "skos:broader": "streetArtGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -2333,7 +2333,7 @@
     },
     {
       "Unique identifier": "muralsWriting",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "murals (writing)",
       "skos:broader": "writingGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -2355,7 +2355,7 @@
     },
     {
       "Unique identifier": "naturalElementMotifs",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "natural element motifs",
       "skos:broader": "motifs",
       "rdf:type (skos:)": "Concept",
@@ -2377,7 +2377,7 @@
     },
     {
       "Unique identifier": "ObjectsF",
-      "Getty AAT type": "facet",
+      "Type": "facet",
       "skos:prefLabel @en": "Objects <facet>",
       "skos:broader": "",
       "rdf:type (skos:)": "Concept",
@@ -2399,7 +2399,7 @@
     },
     {
       "Unique identifier": "openSpaces",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "open spaces",
       "skos:broader": "OpenSpacesAndSiteElementsHN",
       "rdf:type (skos:)": "Concept",
@@ -2421,7 +2421,7 @@
     },
     {
       "Unique identifier": "OpenSpacesAndSiteElementsHN",
-      "Getty AAT type": "hierarchy name",
+      "Type": "hierarchy name",
       "skos:prefLabel @en": "Open Spaces and Site Elements <hierarchy name>",
       "skos:broader": "BuiltEnvironmentHN",
       "rdf:type (skos:)": "Concept",
@@ -2443,7 +2443,7 @@
     },
     {
       "Unique identifier": "openSpacesByLocationOrContextGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "open spaces by location or context <guide term>",
       "skos:broader": "openSpaces",
       "rdf:type (skos:)": "Concept",
@@ -2465,7 +2465,7 @@
     },
     {
       "Unique identifier": "organicStyleGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "organic style (graffiti)",
       "skos:broader": "stylesWriting",
       "rdf:type (skos:)": "Concept",
@@ -2487,7 +2487,7 @@
     },
     {
       "Unique identifier": "outlinesGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "outlines (graffiti)",
       "skos:broader": "letterformComponents",
       "rdf:type (skos:)": "Concept",
@@ -2509,7 +2509,7 @@
     },
     {
       "Unique identifier": "paintStencilTechnique",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "paint stencil (technique)",
       "skos:broader": "surfaceCoveringProcessesAndTechniquesGT",
       "rdf:type (skos:)": "Concept",
@@ -2531,7 +2531,7 @@
     },
     {
       "Unique identifier": "paperStyleGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "paper style (graffiti)",
       "skos:broader": "stylesWriting",
       "rdf:type (skos:)": "Concept",
@@ -2553,7 +2553,7 @@
     },
     {
       "Unique identifier": "pasteUpsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "paste ups (graffiti)",
       "skos:broader": "streetArtGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -2575,7 +2575,7 @@
     },
     {
       "Unique identifier": "peopleAgents",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "people (agents)",
       "skos:broader": "PeopleHN",
       "rdf:type (skos:)": "Concept",
@@ -2597,7 +2597,7 @@
     },
     {
       "Unique identifier": "peopleByOccupationGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "people by occupation <guide term>",
       "skos:broader": "peopleAgents",
       "rdf:type (skos:)": "Concept",
@@ -2619,7 +2619,7 @@
     },
     {
       "Unique identifier": "peopleByStateOrConditionGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "people by state or condition <guide term>",
       "skos:broader": "peopleAgents",
       "rdf:type (skos:)": "Concept",
@@ -2641,7 +2641,7 @@
     },
     {
       "Unique identifier": "PeopleHN",
-      "Getty AAT type": "hierarchy name",
+      "Type": "hierarchy name",
       "skos:prefLabel @en": "People <hierarchy name>",
       "skos:broader": "AgentsF",
       "rdf:type (skos:)": "Concept",
@@ -2663,7 +2663,7 @@
     },
     {
       "Unique identifier": "peopleInTheArtsAndRelatedOccupationsGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "people in the arts and related occupations <guide term>",
       "skos:broader": "peopleInTheHumanitiesGT",
       "rdf:type (skos:)": "Concept",
@@ -2685,7 +2685,7 @@
     },
     {
       "Unique identifier": "peopleInTheHumanitiesGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "people in the humanities <guide term>",
       "skos:broader": "peopleByOccupationGT",
       "rdf:type (skos:)": "Concept",
@@ -2707,7 +2707,7 @@
     },
     {
       "Unique identifier": "phoneticSigns",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "phonetic signs",
       "skos:broader": "scriptAndTypeSigns",
       "rdf:type (skos:)": "Concept",
@@ -2729,7 +2729,7 @@
     },
     {
       "Unique identifier": "photorealisticStyleGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "photorealistic style (graffiti)",
       "skos:broader": "stylesStreetArt",
       "rdf:type (skos:)": "Concept",
@@ -2751,7 +2751,7 @@
     },
     {
       "Unique identifier": "physicalActivitiesBySpecificContextGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "physical activities by specific context <guide term>",
       "skos:broader": "PhysicalAndMentalActivitiesHN",
       "rdf:type (skos:)": "Concept",
@@ -2773,7 +2773,7 @@
     },
     {
       "Unique identifier": "PhysicalAndMentalActivitiesHN",
-      "Getty AAT type": "hierarchy name",
+      "Type": "hierarchy name",
       "skos:prefLabel @en": "Physical and Mental Activities <hierarchy name>",
       "skos:broader": "ActivitiesF",
       "rdf:type (skos:)": "Concept",
@@ -2795,7 +2795,7 @@
     },
     {
       "Unique identifier": "PhysicalAttributesF",
-      "Getty AAT type": "facet",
+      "Type": "facet",
       "skos:prefLabel @en": "Physical Attributes <facet>",
       "skos:broader": "",
       "rdf:type (skos:)": "Concept",
@@ -2817,7 +2817,7 @@
     },
     {
       "Unique identifier": "piecesGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "pieces (graffiti)",
       "skos:broader": "writingGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -2839,7 +2839,7 @@
     },
     {
       "Unique identifier": "primingBackground",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "priming (technique)",
       "skos:broader": "surfaceCoveringProcessesAndTechniquesGT",
       "rdf:type (skos:)": "Concept",
@@ -2861,7 +2861,7 @@
     },
     {
       "Unique identifier": "processesAndTechniquesBySpecificTypeGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "processes and techniques by specific type <guide term>",
       "skos:broader": "ProcessesAndTechniquesHN",
       "rdf:type (skos:)": "Concept",
@@ -2883,7 +2883,7 @@
     },
     {
       "Unique identifier": "ProcessesAndTechniquesHN",
-      "Getty AAT type": "hierarchy name",
+      "Type": "hierarchy name",
       "skos:prefLabel @en": "Processes and Techniques <hierarchy name>",
       "skos:broader": "ActivitiesF",
       "rdf:type (skos:)": "Concept",
@@ -2905,7 +2905,7 @@
     },
     {
       "Unique identifier": "productionsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "productions (graffiti)",
       "skos:broader": "graffitiConcepts",
       "rdf:type (skos:)": "Concept",
@@ -2927,7 +2927,7 @@
     },
     {
       "Unique identifier": "publicAndInteractiveActivitiesGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "public and interactive activities <guide term>",
       "skos:broader": "physicalActivitiesBySpecificContextGT",
       "rdf:type (skos:)": "Concept",
@@ -2949,7 +2949,7 @@
     },
     {
       "Unique identifier": "reverseGraffitiTechnique",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "reverse graffiti (technique)",
       "skos:broader": "subtractiveProcessesAndTechniquesGT",
       "rdf:type (skos:)": "Concept",
@@ -2971,7 +2971,7 @@
     },
     {
       "Unique identifier": "reverseGraffitiWriting",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "reverse graffiti (writing)",
       "skos:broader": "writingGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -2993,7 +2993,7 @@
     },
     {
       "Unique identifier": "rollingUpTechnique",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "rolling up (technique)",
       "skos:broader": "surfaceCoveringProcessesAndTechniquesGT",
       "rdf:type (skos:)": "Concept",
@@ -3015,7 +3015,7 @@
     },
     {
       "Unique identifier": "rollUpsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "roll ups (graffiti)",
       "skos:broader": "writingGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -3037,7 +3037,7 @@
     },
     {
       "Unique identifier": "scratchingsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "scratchings (graffiti)",
       "skos:broader": "writingGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -3059,7 +3059,7 @@
     },
     {
       "Unique identifier": "scratchingTechnique",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "scratching (technique) ",
       "skos:broader": "subtractiveProcessesAndTechniquesGT",
       "rdf:type (skos:)": "Concept",
@@ -3081,7 +3081,7 @@
     },
     {
       "Unique identifier": "scriptAndTypeFormsGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "script and type forms <guide term>",
       "skos:broader": "informationFormComponents",
       "rdf:type (skos:)": "Concept",
@@ -3103,7 +3103,7 @@
     },
     {
       "Unique identifier": "scriptAndTypeSigns",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "script and type signs",
       "skos:broader": "scriptAndTypeFormsGT",
       "rdf:type (skos:)": "Concept",
@@ -3125,7 +3125,7 @@
     },
     {
       "Unique identifier": "sculpturesGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "sculptures (graffiti) ",
       "skos:broader": "streetArtGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -3147,7 +3147,7 @@
     },
     {
       "Unique identifier": "secondOutlinesGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "second outlines (graffiti)",
       "skos:broader": "outlinesGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -3169,7 +3169,7 @@
     },
     {
       "Unique identifier": "secondRowsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "second rows (graffiti)",
       "skos:broader": "openSpacesByLocationOrContextGT",
       "rdf:type (skos:)": "Concept",
@@ -3191,7 +3191,7 @@
     },
     {
       "Unique identifier": "semiWildstyleGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "semi Wildstyle (graffiti)",
       "skos:broader": "stylesWriting",
       "rdf:type (skos:)": "Concept",
@@ -3213,7 +3213,7 @@
     },
     {
       "Unique identifier": "shadowsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "shadows (graffiti)",
       "skos:broader": "backgroundsGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -3235,7 +3235,7 @@
     },
     {
       "Unique identifier": "signAndElement",
-      "Getty AAT type": "collection",
+      "Type": "collection",
       "skos:prefLabel @en": "sign and element",
       "skos:broader": "",
       "rdf:type (skos:)": "Collection",
@@ -3257,7 +3257,7 @@
     },
     {
       "Unique identifier": "simpleStyleGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "simple style (graffiti)",
       "skos:broader": "stylesWriting",
       "rdf:type (skos:)": "Concept",
@@ -3279,7 +3279,7 @@
     },
     {
       "Unique identifier": "sketchbooks",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "sketchbooks",
       "skos:broader": "documentsByFunctionGT",
       "rdf:type (skos:)": "Concept",
@@ -3301,7 +3301,7 @@
     },
     {
       "Unique identifier": "slogansVerbalGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "slogans (verbal graffiti)",
       "skos:broader": "verbalGraffitiGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -3323,7 +3323,7 @@
     },
     {
       "Unique identifier": "smiliesGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "smilies (graffiti)",
       "skos:broader": "motifs",
       "rdf:type (skos:)": "Concept",
@@ -3345,7 +3345,7 @@
     },
     {
       "Unique identifier": "socialMedia",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "social media",
       "skos:broader": "computerNetworkingConcepts",
       "rdf:type (skos:)": "Concept",
@@ -3367,7 +3367,7 @@
     },
     {
       "Unique identifier": "socialMediaHandles",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "social media handles",
       "skos:broader": "socialMedia",
       "rdf:type (skos:)": "Concept",
@@ -3389,7 +3389,7 @@
     },
     {
       "Unique identifier": "socialScienceConcepts",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "social science concepts",
       "skos:broader": "AssociatedConceptsHN",
       "rdf:type (skos:)": "Concept",
@@ -3411,7 +3411,7 @@
     },
     {
       "Unique identifier": "sociologicalConcepts",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "sociological concepts",
       "skos:broader": "socialScienceConcepts",
       "rdf:type (skos:)": "Concept",
@@ -3433,7 +3433,7 @@
     },
     {
       "Unique identifier": "starsMotifs",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "stars (motif)",
       "skos:broader": "naturalElementMotifs",
       "rdf:type (skos:)": "Concept",
@@ -3455,7 +3455,7 @@
     },
     {
       "Unique identifier": "stencilsStreetArt",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "stencils (street art)",
       "skos:broader": "streetArtGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -3477,7 +3477,7 @@
     },
     {
       "Unique identifier": "stickersStreetArt",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "stickers (street art)",
       "skos:broader": "streetArtGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -3499,7 +3499,7 @@
     },
     {
       "Unique identifier": "streetArtGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "street art (graffiti)",
       "skos:broader": "graffiti",
       "rdf:type (skos:)": "Concept",
@@ -3521,7 +3521,7 @@
     },
     {
       "Unique identifier": "streetArtistsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "street artists (graffiti)",
       "skos:broader": "graffitists",
       "rdf:type (skos:)": "Concept",
@@ -3543,7 +3543,7 @@
     },
     {
       "Unique identifier": "style",
-      "Getty AAT type": "collection",
+      "Type": "collection",
       "skos:prefLabel @en": "style",
       "skos:broader": "",
       "rdf:type (skos:)": "Collection",
@@ -3565,7 +3565,7 @@
     },
     {
       "Unique identifier": "StylesAndPeriodsF",
-      "Getty AAT type": "facet",
+      "Type": "facet",
       "skos:prefLabel @en": "Styles and Periods <facet>",
       "skos:broader": "",
       "rdf:type (skos:)": "Concept",
@@ -3587,7 +3587,7 @@
     },
     {
       "Unique identifier": "StylesAndPeriodsHN",
-      "Getty AAT type": "hierarchy name",
+      "Type": "hierarchy name",
       "skos:prefLabel @en": "Styles and Periods <hierarchy name>",
       "skos:broader": "StylesAndPeriodsF",
       "rdf:type (skos:)": "Concept",
@@ -3609,7 +3609,7 @@
     },
     {
       "Unique identifier": "stylesGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "styles (graffiti)",
       "skos:broader": "stylesPeriodsAndCulturesByGeneralEraGT",
       "rdf:type (skos:)": "Concept",
@@ -3631,7 +3631,7 @@
     },
     {
       "Unique identifier": "stylesPeriodsAndCulturesByGeneralEraGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "styles, periods, and cultures by general era <guide term>",
       "skos:broader": "StylesAndPeriodsHN",
       "rdf:type (skos:)": "Concept",
@@ -3653,7 +3653,7 @@
     },
     {
       "Unique identifier": "stylesSticker",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "styles (sticker)",
       "skos:broader": "stylesGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -3675,7 +3675,7 @@
     },
     {
       "Unique identifier": "stylesStreetArt",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "styles (street art)",
       "skos:broader": "stylesGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -3697,7 +3697,7 @@
     },
     {
       "Unique identifier": "stylesWriting",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "styles (writing)",
       "skos:broader": "stylesGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -3719,7 +3719,7 @@
     },
     {
       "Unique identifier": "subtractiveProcessesAndTechniquesGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "subtractive processes and techniques <guide term> ",
       "skos:broader": "processesAndTechniquesBySpecificTypeGT",
       "rdf:type (skos:)": "Concept",
@@ -3741,7 +3741,7 @@
     },
     {
       "Unique identifier": "surfaceCoveringProcessesAndTechniquesGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "surface covering processes and techniques <guide term>",
       "skos:broader": "additiveAndJoiningProcessesAndTechniquesGT",
       "rdf:type (skos:)": "Concept",
@@ -3763,7 +3763,7 @@
     },
     {
       "Unique identifier": "swirlsMotifs",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "swirls (motify)",
       "skos:broader": "motifs",
       "rdf:type (skos:)": "Concept",
@@ -3785,7 +3785,7 @@
     },
     {
       "Unique identifier": "symbolsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "graffiti symbol",
       "skos:broader": "graffiti",
       "rdf:type (skos:)": "Concept",
@@ -3807,7 +3807,7 @@
     },
     {
       "Unique identifier": "taggingTechnique",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "tagging (technique)",
       "skos:broader": "surfaceCoveringProcessesAndTechniquesGT",
       "rdf:type (skos:)": "Concept",
@@ -3829,7 +3829,7 @@
     },
     {
       "Unique identifier": "tagsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "tags (graffiti)",
       "skos:broader": "writingGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -3851,7 +3851,7 @@
     },
     {
       "Unique identifier": "technologyAndRelatedConceptsGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "technology and related concepts <guide term>",
       "skos:broader": "AssociatedConceptsHN",
       "rdf:type (skos:)": "Concept",
@@ -3873,7 +3873,7 @@
     },
     {
       "Unique identifier": "technologyGeneralAssociatedConcept",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "technology (general associated concept)",
       "skos:broader": "technologyAndRelatedConceptsGT",
       "rdf:type (skos:)": "Concept",
@@ -3895,7 +3895,7 @@
     },
     {
       "Unique identifier": "threeDimensional",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "three-dimensional",
       "skos:broader": "formAttributes",
       "rdf:type (skos:)": "Concept",
@@ -3917,7 +3917,7 @@
     },
     {
       "Unique identifier": "throwUpsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "throw ups (graffiti)",
       "skos:broader": "writingGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -3939,7 +3939,7 @@
     },
     {
       "Unique identifier": "toysGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "toys (graffiti)",
       "skos:broader": "peopleByStateOrConditionGT",
       "rdf:type (skos:)": "Concept",
@@ -3961,7 +3961,7 @@
     },
     {
       "Unique identifier": "underlinesGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "underlines (graffiti)",
       "skos:broader": "outlinesGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -3983,7 +3983,7 @@
     },
     {
       "Unique identifier": "urbanKnittingsGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "urban knittings (graffiti)",
       "skos:broader": "streetArtGraffiti",
       "rdf:type (skos:)": "Concept",
@@ -4005,7 +4005,7 @@
     },
     {
       "Unique identifier": "verbalGraffitiGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "verbal graffiti",
       "skos:broader": "graffiti",
       "rdf:type (skos:)": "Concept",
@@ -4027,7 +4027,7 @@
     },
     {
       "Unique identifier": "VisualAndVerbalCommunicationHN",
-      "Getty AAT type": "hierarchy name",
+      "Type": "hierarchy name",
       "skos:prefLabel @en": "Visual and Verbal Communication <hierarchy name> ",
       "skos:broader": "ObjectsF",
       "rdf:type (skos:)": "Concept",
@@ -4049,7 +4049,7 @@
     },
     {
       "Unique identifier": "visualWorksByFunctionGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "visual works by function <guide term>",
       "skos:broader": "visualWorksWorks",
       "rdf:type (skos:)": "Concept",
@@ -4071,7 +4071,7 @@
     },
     {
       "Unique identifier": "visualWorksByLocationOrContextGT",
-      "Getty AAT type": "guide term",
+      "Type": "guide term",
       "skos:prefLabel @en": "visual works by location or context <guide term>",
       "skos:broader": "visualWorksWorks",
       "rdf:type (skos:)": "Concept",
@@ -4093,7 +4093,7 @@
     },
     {
       "Unique identifier": "visualWorksWorks",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "visual works (works) ",
       "skos:broader": "VisualAndVerbalCommunicationHN",
       "rdf:type (skos:)": "Concept",
@@ -4115,7 +4115,7 @@
     },
     {
       "Unique identifier": "WildstyleWriting",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "Wildstyle (writing)",
       "skos:broader": "stylesWriting",
       "rdf:type (skos:)": "Concept",
@@ -4137,7 +4137,7 @@
     },
     {
       "Unique identifier": "writersGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "writers (graffiti)",
       "skos:broader": "graffitists",
       "rdf:type (skos:)": "Concept",
@@ -4159,7 +4159,7 @@
     },
     {
       "Unique identifier": "writingGraffiti",
-      "Getty AAT type": "concept",
+      "Type": "concept",
       "skos:prefLabel @en": "writing (graffiti)",
       "skos:broader": "graffiti",
       "rdf:type (skos:)": "Concept",
