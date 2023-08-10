@@ -1,0 +1,56 @@
+{
+    "skos:ConceptScheme": "INDIGO Graffiti Thesaurus",
+    "dc:title": {
+      "@en": "INDIGO Graffiti Thesaurus"
+    },
+    "identifier": "https://vocabs.acdh.oeaw.ac.at/indigo/Thesaurus",
+    "dc:creator": [
+      "Jona Schlegel",
+      "Stefan Wogrin",
+      "Massimiliano Carloni",
+      "Geert Verhoeven"
+    ],
+    "dc:description": {
+      "@de": "Der INDIGO-Graffiti-Thesaurus ist ein spezialisiertes Werkzeug, ...",
+      "@en": "The INDIGO Graffiti Thesaurus is a specialised controlled vocabulary ..."
+    },
+    "dc:language": "English",
+    "dc:subject": [
+      "graffiti",
+      "street art"
+    ],
+    "version": "1.0.0",
+    "dc:publisher": "project INDIGO; ACDH-CH",
+    "dct:license": "Open Data Commons Attribution License (ODC-By) 1.0",
+    "owner": "project INDIGO",
+    "dc:relation": "https://projectindigo.eu",
+    "dc:coverage": "Contemporary graffiti terminology with a spatial focus on the Danube Canal, Vienna, Austria",
+    "dc:source": {
+      "@en": [
+        "Schlegel, Jona, Massimiliano Carloni, Stefan Wogrin, Ann M. Graf, and Geert J. Verhoeven. ‘Making a Mark—Towards a Graffiti Thesaurus’. Document | Archive | Disseminate Graffiti-Scapes, 2023, 203–19. https://doi.org/10.48619/indigo.v0i0.710 Add to Citavi project by DOI.",
+        "Contains information from the J. Paul Getty Trust, Getty Research Institute, the Art & Architecture Thesaurus, which is made available under the ODC Attribution License."
+      ]
+    },
+    "collections": [
+      "activity",
+      "community term",
+      "graffito class",
+      "graffito component",
+      "graffito creator",
+      "graffito type",
+      "component part",
+      "concept idea",
+      "design",
+      "sign and element",
+      "style"
+    ],
+    "number of concepts": 179,
+    "dct:created": "May 17, 2023, 3:57 p.m.",
+    "dct:modified": "Aug. 10, 2023, 7:28 a.m.",
+    "created by": "killmayer",
+    "curator(s)": [
+      "mcarloni",
+      "jschlegel"
+    ]
+  }
+  
