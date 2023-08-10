@@ -12,7 +12,13 @@
     ],
     "dc:description": {
       "@de": "Der INDIGO-Graffiti-Thesaurus ist ein spezialisiertes Werkzeug, ...",
-      "@en": "The INDIGO Graffiti Thesaurus is a specialised controlled vocabulary ..."
+      "@en": "The INDIGO Graffiti Thesaurus is a curated academic resource centred on contemporary graffiti terminology, with a pronounced spatial focus on the Danube Canal in Vienna, Austria. It is not just a compilation of terms, but a specialised tool that organises and categorises graffiti-related concepts within a controlled vocabulary. More specifically, it takes the form of a thesaurus, where concepts are connected to each other through equivalence, hierarchical, and associative relationships.
+
+      By leveraging the Simple Knowledge Organization System (SKOS) data model, the thesaurus ensures consistency and precision in its representation of information. The use of SKOS not only makes the thesaurus accessible but also interoperable, allowing for seamless integration with other widely used resources such as Wikidata and the Getty Art & Architecture Thesaurus (AAT). Furthermore, the content is systematically organised using facets, hierarchy names, and guide terms, mirroring the structure of the AAT.
+      
+      The thesaurus is made available through the Vocabs service of the Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH), which utilises Skosmos, an open-source software tailored for publishing vocabularies. For enhanced accessibility, the thesaurus can be queried via a REST API, facilitating its interaction with data over the World Wide Web. Moreover, its availability in diverse data formats, including TSV and JSON, caters to a wide range of academic and technological preferences.
+      
+      The thesaurus's distinct emphasis on the Danube Canal's graffiti culture positions it as a unique and invaluable tool for those keen on exploring the intricate world of graffiti in Vienna's iconic urban space."
     },
     "dc:language": "English",
     "dc:subject": [
