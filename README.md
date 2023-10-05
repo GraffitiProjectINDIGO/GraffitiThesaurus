@@ -40,7 +40,7 @@ Within SKOS, the vocabulary creator can define a [collection](https://www.w3.org
 
 
 ### Vocabs
-The [Vocabs](https://vocabs.dariah.eu/en/) , provided by the Austrian Centre for Digital Humanities and Cultural Heritage ([ACDH-CH](https://www.oeaw.ac.at/acdh/acdh-ch-home)), offers tools and resources for managing controlled vocabularies. Built on Skosmos and utilising the SKOS data model (see the previous paragraphs), Vocabs includes a web-based browser for exploring and searching vocabularies or displaying the structured concepts and their hierarchies. Vocabularies are also accessible over a REST API, enhancing the reuse of these data in different contexts [(Vocabs services. 2023)](https://www.zotero.org/google-docs/?eRwDvE).
+The [Vocabs](https://vocabs.dariah.eu/en/) service, provided by the Austrian Centre for Digital Humanities and Cultural Heritage ([ACDH-CH](https://www.oeaw.ac.at/acdh/acdh-ch-home)), offers tools and resources for managing controlled vocabularies. Built on Skosmos and utilising the SKOS data model (see the previous paragraphs), Vocabs includes a web-based browser for exploring and searching vocabularies or displaying the structured concepts and their hierarchies. Vocabularies are also accessible over a REST API, enhancing the reuse of these data in different contexts [(Vocabs services. 2023)](https://www.zotero.org/google-docs/?eRwDvE).
 
 
 ## The INDIGO graffiti thesaurus
