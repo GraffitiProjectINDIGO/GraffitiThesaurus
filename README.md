@@ -45,6 +45,8 @@ The [Vocabs](https://vocabs.dariah.eu/en/) service, provided by the Austrian Cen
 
 ## The INDIGO graffiti thesaurus
 
+The INDIGO Graffiti Thesaurus is available in a variety of formats, allowing for different ways of processing the information and integrating the thesaurus into existing contexts. The thesaurus is available on the Vocabs service in three different serialisations of RDF (RDF/XML, Turtle and JSON-LD), while in this GitHub repo the Thesaurus is available in TSV and JSON formats, which provide a more human readable overview and make it easier to analyse and batch edit concepts and collections.
+
 ### TSV Files
 TSV stands for Tab-Separated Values. It is a simple file format used to store data in a tabular structure, akin to a CSV (Comma-Separated Values) file. Each line in a TSV file represents a row in the table, and each field in the row is separated by a tab character. This format is widely utilised for its simplicity and compatibility with numerous data processing tools and applications. For instance, a TSV file can be effortlessly opened and edited in a spreadsheet programme such as Microsoft Excel or Google Sheets. It can also be processed using programming languages like Python or R, which provide built-in functions for reading and writing TSV files.
 
